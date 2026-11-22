@@ -17,9 +17,10 @@ trade.json: {"players": [ {...}, ... ]}. Per player:
                         (or pass total_war to skip the defense/platoon math in both models)
   pos                   position he'll play (c, 1b, 2b, 3b, ss, lf, cf, rf, dh)
   ratings               hitters: DMB ratings by position, e.g. {"2b": "Vg/193", "3b": "Vg/157"}.
-                        Fielding comes from the Flood013 DMB defense study (dmb/defense_study.json):
-                        runs saved when a player rated at X plays `pos`, best rated position wins.
-                        Omit to use range/err as an in-position rating at `pos`; {} = unrated.
+                        If rated at `pos`: the model's own range/error/arm scale.
+                        If NOT rated at `pos`: out-of-position runs from the Flood013 DMB defense
+                        study (dmb/defense_study.json), best rated position wins; {} = unrated.
+                        Omit to use range/err as an in-position rating at `pos`.
   range, err            shorthand for ratings = {pos: "range/err"}
   arm                   OF arm (LF/CF/RF) or catcher throwing arm; pb = catcher passed-ball rating
   pos_runs              hitters: war.csv `fg_pos_runs` (FanGraphs Positional runs he actually earned).
@@ -96,7 +97,25 @@ def dmb_fielding_runs(p):
 
 
 def dmb_fielding_war(p):
-    return dmb_fielding_runs(p) * p.get("pa", 0) / 650 * DMB_ERA_SCALE / RUNS_PER_WIN
+    """In position: the model's own range/error/arm scale (fielding()).
+    Out of position (not rated at `pos`): the DMB defense study's out-of-position runs."""
+    pos = p.get("pos", "").lower()
+    if not pos or pos == "dh":
+        return 0.0
+    ratings = p.get("ratings")
+    if ratings is None:  # range/err shorthand = rated at pos
+        return fielding(p)
+    rated = {k.lower(): v for k, v in ratings.items()}
+    if pos in rated:
+        rng, _, err = str(rated[pos]).partition("/")
+        return fielding(dict(p, range=rng.capitalize(), err=float(err or 100)))
+    if STUDY is None:
+        return fielding(dict(p, range="Pr", err=200))  # crude fallback
+    runs = dmb_fielding_runs(dict(p, arm=None))  # OOP range+error from the study
+    war = runs * p.get("pa", 0) / 650 * DMB_ERA_SCALE / RUNS_PER_WIN
+    if pos in ("lf", "cf", "rf") and p.get("arm"):  # OFs keep their arm rating (model scale)
+        war += ARM.get(p["arm"].capitalize(), 0)
+    return war
 ARM = {"Pr": -1, "Fr": -0.5, "Av": 0, "Vg": 0.5, "Ex": 1}
 ERR_W = {"c": .5, "1b": .4, "2b": .5, "3b": .8, "ss": .8, "lf": .2, "cf": .2, "rf": .2}
 F_DMB = {("L", "R"): .85, ("L", "L"): .40, ("R", "L"): .45, ("R", "R"): .80,

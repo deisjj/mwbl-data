@@ -15,12 +15,17 @@ Source: Flood013 (Albert R. Costa), *The Value of Defense including Out-of-Posit
 
 ## How score.py uses this (methodology)
 
-1. **Rated vs. played position.** A hitter's `ratings` give his DMB rating at each position (e.g. `{"2b": "Vg/193"}`), and `pos` is where he'll play.
-2. **Look up runs.** For each rated position, look up `runs[played][rated][range]` across error rates. Error rates between table columns are interpolated linearly. Past 200 the last segment is extrapolated, capped at 300. The study found that **only the player's best rated position matters** out of position, so the maximum over his rated positions is used. A player with no rating anywhere gets the table's `Unrated` value.
-3. **Arm.** Outfielders (playing LF/CF/RF) add the outfield arm row for the played position when they have an `OF:` rating. Catchers add the catcher arm row and the passed-ball row. Out-of-position outfielders keep their arm rating; catchers out of position don't.
-4. **Convert to WAR.** `WAR = runs × (PA / 650) × DMB_ERA_SCALE / RUNS_PER_WIN`. PA/650 scales the full-season table to the player's playing time. `DMB_ERA_SCALE` shrinks neutral-era runs toward modern scoring (default 0.93 ≈ 4.45/4.8 R/G). `RUNS_PER_WIN` = 9.83.
-5. **Positional adjustment.** The study's values are relative to an average fielder *at the played position*. Difficulty across positions comes from the FanGraphs positional adjustment, which `score.py` re-bases to the played position (`pos_runs`). Both are needed: the position adjustment says how hard the job is, and the table says how well this player does it.
-6. **Pitchers.** No fielding adjustment (league practice).
+**score.py uses this study only for out-of-position play.** The study ran on DMB 9c, so in-position fielding stays on the model's own scale (range Pr −2 … Ex +2 WAR, error rate × position weight, arm ±1). The two scales agree closely in general: correlation 0.93 across 695 rated MWBL hitters, mean difference 0.4 WAR per season. The study is harsher on poor range at 3B and in the OF, and flatter at the top for SS, 2B and 1B.
+
+1. **Inputs.** A hitter's `ratings` give his DMB rating at each position (e.g. `{"2b": "Vg/193"}`), and `pos` is where he'll play.
+2. **Rated at `pos`:** model scale (`fielding()`), unchanged.
+3. **Not rated at `pos`:**
+   - Look up `runs[played][rated][range]` from the study for each rated position. Error rates between columns are interpolated linearly; past 200 the last segment is extrapolated, capped at 300.
+   - Take the **maximum** over his rated positions; per the study, only the best one matters out of position. With no ratings at all, use the table's `Unrated` value.
+   - Convert with `WAR = runs × (PA / 650) × DMB_ERA_SCALE / RUNS_PER_WIN`, where PA/650 scales the full-season table to his playing time, `DMB_ERA_SCALE` = 0.93 (neutral era ≈ 4.8 R/G vs modern ≈ 4.45) and `RUNS_PER_WIN` = 9.83.
+   - Outfielders keep their arm rating, on the model scale.
+4. **Positional adjustment.** All fielding values are relative to an average fielder *at the played position*. Difficulty across positions comes from the FanGraphs positional adjustment, which `score.py` re-bases to the played position (`pos_runs`).
+5. **Pitchers.** No fielding adjustment.
 
 **Worked example: Jazz Chisholm (rated 2B Vg/193) at 3B.** In the *Playing Third Base* table, column 2B, row Vg, the error-175 cell is −25 and the error-200 cell is −34, so 193 interpolates to −31.5 runs. Over 532 PA × 0.93 era scale ÷ 9.83 that's **−2.4 WAR**, against 0 for an Av/100 third baseman. At 2B, his rated position, Vg/193 is −7.2 runs, or −0.6 WAR.
 
