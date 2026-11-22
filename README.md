@@ -28,13 +28,12 @@ join key across every file.
 
 ## war.csv
 
-`ID, Name, mlbam, birth, match, PA, off_war, def, bat_war, IP, war`
+`ID, Name, mlbam, birth, match, PA, off_war, def, bat_war, fg_bat_war, IP, war, bwar_pitch`
 
-- Source: Baseball-Reference `war_daily_bat/pitch` archive, season rows only, stints summed
-- `off_war` = bWAR oWAR (batting + baserunning + positional + replacement). The model adds DMB fielding on top, so `def` (real-life fielding) is reference only
-- `war` = pitching WAR; `bat_war` = full hitting bWAR
-- `match`: `chadwick` (FanGraphs→MLBAM via Chadwick register) or `name` (fallback for recent call-ups Chadwick lacks)
-- Rebuild: `python3 tools/build_war.py <dir>` with `chad/` (Chadwick CSVs) and `warzip/` (bWAR archive) under `<dir>`
+- **Pitchers: `war` = FanGraphs Pit WAR** (FIP-based, closer to how DMB builds pitcher cards). `bwar_pitch` = Baseball-Reference pitching WAR, reference only
+- **Hitters: `off_war` = bWAR oWAR** (batting + baserunning + positional + replacement); the model adds DMB fielding on top. `def` (bWAR fielding), `bat_war` (full bWAR) and `fg_bat_war` (full fWAR, includes fielding) are reference only
+- `match`: `chadwick` (FanGraphs→MLBAM via Chadwick register) or `name` (fallback for recent call-ups)
+- Sources: Baseball-Reference `war_daily_bat/pitch` archive (stints summed) + FanGraphs WAR leaderboard (joined on FanGraphs ID). Build: `tools/build_war.py`, then the FanGraphs join
 
 ## Fetching from a skill
 
