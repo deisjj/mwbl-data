@@ -1,0 +1,1745 @@
+## Arizona
+ Abner              [mr] p:Av/100
+ Alexander,B        [3b] 2b:Av/77 3b:Av/124 lf:Av/94 cf:Av/94 OF:Ex
+ Backhus            [mr] p:Av/83
+ Barrosa            [cf] lf:Ex/65 cf:Ex/65 rf:Ex/65 OF:Av
+ Beeks              [mr] p:Vg/62
+ Brigham            [mr] p:Av/98
+ Burgos             [mr] p:Av/96
+ Burnes             [sp] p:Av/127
+ Carroll            [rf] cf:Av/27 rf:Vg/27 OF:Fr
+ Castillo,J         [mr] p:Av/96
+ Crismatt           [sp] p:Av/77
+ Curtiss            [mr] p:Av/195
+ DeSclafani         [mr] p:Vg/74
+ Del Castillo       [dh] c:Av/93 Cthr:Fr PB:4
+ Diaz,Yi            [mr] p:Av/98
+ English            [1b] 1b:Av/88
+ Feyereisen         [mr] p:Av/100
+ Gallen             [sp] p:Av/63
+ Garcia,Ar          [c] c:Av/98 Cthr:Pr PB:4
+ Garcia,B           [mr] p:Av/92
+ Ginkel             [mr] p:Fr/83
+ Graveman           [mr] p:Av/88
+ Grichuk            [dh] lf:Fr/69 cf:Fr/69 rf:Fr/69 OF:Ex
+ Gurriel,L          [lf] lf:Av/116 OF:Av
+ Hampson            [2b] 2b:Vg/85 3b:Vg/98 ss:Av/99 lf:Vg/97 cf:Vg/97 OF:Fr
+ Henry,T            [mr] p:Av/96
+ Herrera,J          [c] c:Av/89 Cthr:Av PB:1
+ Hoffmann           [mr] p:Av/95
+ Jameson            [cl] p:Av/98
+ Jarvis             [mr] p:Av/85
+ Kaiser             [2b] 2b:Av/91
+ Kelly,Cas          [mr] p:Av/100
+ Kelly,Me           [sp] p:Av/149
+ Lawlar             [3b] 2b:Pr/134 3b:Pr/154 ss:Pr/121
+ Locklear           [1b] 1b:Fr/83
+ Mantiply           [mr] p:Av/94
+ Marte,K            [2b] 2b:Av/89
+ Martinez,J         [cl] p:Fr/140
+ McCann             [c] c:Vg/70 Cthr:Vg PB:0
+ McCarthy           [lf] lf:Vg/3 cf:Av/3 rf:Vg/3 OF:Fr
+ McGough            [mr] p:Fr/100
+ Mena               [mr] p:Av/96
+ Miller,S           [cl] p:Av/171
+ Montes De Oca      [mr] p:Av/98
+ Moreno             [c] c:Av/26 Cthr:Vg PB:2
+ Morillo            [mr] p:Fr/77
+ Naylor,J           [1b] 1b:Av/115
+ Nelson,K           [cl] p:Av/100
+ Nelson,R           [sp] p:Av/0
+ Perdomo,G          [ss] ss:Av/120
+ Pfaadt             [sp] p:Fr/280
+ Pope               [mr] p:Av/99
+ Puk                [cl] p:Av/95
+ Rashi              [mr] p:Av/100
+ Richards           [mr] p:Fr/100
+ Rodriguez,Ed       [sp] p:Av/0
+ Saalfrank          [mr] p:Av/100
+ Scott,Tay          [mr] p:Vg/94
+ Smith,P            [dh] 1b:Pr/82
+ Suarez,E           [3b] 1b:Fr/100 3b:Fr/139
+ Tawa               [2b] 1b:Vg/115 2b:Av/153 3b:Av/97 lf:Av/66 cf:Av/66 rf:Av/66 OF:Av
+ Thomas,A           [cf] cf:Av/77 OF:Av
+ Thompson,R         [mr] p:Av/72
+ Vargas,I           [2b] 1b:Vg/84 2b:Av/79 3b:Vg/114 ss:Fr/100
+ Woodford           [mr] p:Av/76
+
+## Atlanta
+ Acuna,R            [rf] rf:Pr/99 OF:Vg
+ Albies             [2b] 2b:Av/22
+ Allen,N            [ss] 2b:Vg/116 ss:Vg/50
+ Alvarez,N          [3b] 3b:Av/61
+ Arcia              [ss] ss:Av/84
+ Azocar             [rf] rf:Av/100 OF:Vg
+ Baldwin,D          [c] c:Ex/74 Cthr:Fr PB:2
+ Blewett            [mr] p:Av/89
+ Brebbia            [mr] p:Av/100
+ Brujan             [ss] 3b:Fr/95 ss:Pr/92 rf:Vg/95 OF:Av
+ Bummer             [mr] p:Av/173
+ Carrasco           [sp] p:Av/91
+ Chavez             [mr] p:Av/95
+ Cox                [mr] p:Fr/86
+ Daniel             [sp] p:Pr/100
+ De La Cruz,B       [lf] lf:Fr/82 OF:Av
+ De Los Santos,E    [mr] p:Av/278
+ Diaz,A             [mr] p:Av/98
+ Dodd               [mr] p:Vg/77
+ Dunning            [mr] p:Av/100
+ Elder              [sp] p:Av/0
+ Fairchild          [rf] lf:Vg/79 cf:Av/79 rf:Vg/79 OF:Vg
+ Fedde              [sp] p:Av/84
+ Fraley             [rf] lf:Av/91 rf:Av/91 OF:Fr
+ Fuentes            [sp] p:Av/100
+ Harris,Ha          [mr] p:Fr/100
+ Harris,M           [cf] cf:Av/21 OF:Ex
+ Herget,K           [mr] p:Fr/99
+ Hernandez,D        [mr] p:Av/75
+ Holmes,G           [sp] p:Av/73
+ Iglesias,R         [cl] p:Vg/55
+ Johnson,P          [mr] p:Av/61
+ Kelenic            [rf] lf:Av/229 rf:Av/229 OF:Fr
+ Kim,Ha             [ss] ss:Av/58
+ Kimbrel            [mr] p:Av/99
+ Kinley             [mr] p:Av/83
+ Lee,D              [mr] p:Av/54
+ Leon               [c] c:Fr/94 Cthr:Fr PB:4
+ Lopez,R            [sp] p:Av/97
+ Montero,R          [mr] p:Av/77
+ Morton             [sp] p:Av/100
+ Munoz,Rol          [mr] p:Av/100
+ Murphy,S           [c] c:Av/43 Cthr:Av PB:1
+ Neris              [mr] p:Av/100
+ Olson,M            [1b] 1b:Ex/66
+ Ornelas,J          [3b] 3b:Av/99 ss:Fr/99
+ Payamps            [mr] p:Av/100
+ Petersen           [mr] p:Av/100
+ Profar             [lf] lf:Fr/51 OF:Fr
+ Quantrill          [sp] p:Av/100
+ Riley              [3b] 3b:Fr/130
+ Rosario,E          [rf] rf:Av/98 OF:Fr
+ Ruiz,J             [mr] p:Av/100
+ Sale               [sp] p:Vg/94
+ Schwellenbach      [sp] p:Ex/61
+ Seabold            [mr] p:Vg/98
+ Smith-Shawver      [sp] p:Av/70
+ Stratton,H         [mr] p:Av/89
+ Strider            [sp] p:Av/189
+ Suarez,J           [mr] p:Fr/87
+ Suero              [mr] p:Av/100
+ Thompson,Z         [mr] p:Av/100
+ Tromp              [c] c:Av/97 Cthr:Fr PB:5
+ Verdugo            [lf] lf:Av/174 OF:Av
+ Waldrep            [sp] p:Fr/62
+ Wentz              [sp] p:Av/57
+ White,E            [rf] 1b:Fr/98 lf:Vg/64 cf:Av/64 rf:Vg/64 OF:Ex
+ Wiles              [mr] p:Av/100
+ Williams,L         [ss] 3b:Pr/110 ss:Pr/87
+ Wisely             [2b] 2b:Vg/95
+
+## Baltimore
+ Adams,J            [cf] cf:Fr/95 rf:Fr/95 OF:Fr
+ Akin               [mr] p:Av/176
+ Allen,G            [cf] lf:Av/92 cf:Av/92 OF:Av
+ Baker,B            [mr] p:Av/74
+ Banuelos           [c] c:Pr/100 Cthr:Pr PB:1
+ Basallo            [c] c:Vg/122 1b:Fr/96 Cthr:Ex PB:3
+ Bautista           [cl] p:Pr/228
+ Beavers            [lf] lf:Av/282 rf:Av/282 OF:Vg
+ Blewett            [mr] p:Av/84
+ Bowman             [mr] p:Vg/84
+ Bradish            [sp] p:Av/79
+ Brujan             [cf] cf:Vg/100 OF:Av
+ Cano               [mr] p:Ex/96
+ Carlson            [lf] lf:Av/0 cf:Fr/0 rf:Av/0 OF:Av
+ Castillo,J         [mr] p:Av/100
+ Contreras,R        [mr] p:Av/100
+ Cowser             [cf] lf:Vg/80 cf:Av/80 rf:Vg/80 OF:Pr
+ Dominguez,S        [mr] p:Av/72
+ Dubin              [mr] p:Fr/95
+ Eflin              [sp] p:Av/150
+ Enns               [mr] p:Fr/206
+ Espada             [mr] p:Av/100
+ Garcia,Ri          [mr] p:Av/87
+ Gibson,K           [sp] p:Av/92
+ Handley            [c] c:Fr/99 Cthr:Pr PB:2
+ Henderson,G        [ss] ss:Av/57
+ Hiraldo            [mr] p:Fr/172
+ Holliday           [2b] 2b:Fr/120 ss:Fr/89
+ Hummel             [rf] rf:Pr/100 OF:Fr
+ Jackson,A          [c] c:Av/106 Cthr:Vg PB:3
+ Jackson,J          [rf] 3b:Av/141 rf:Av/114 OF:Pr
+ Johnson,D          [cf] lf:Vg/86 cf:Vg/86 rf:Vg/86 OF:Pr
+ Kittredge          [mr] p:Av/79
+ Kjerstad           [lf] lf:Fr/26 rf:Fr/26 OF:Fr
+ Kremer             [sp] p:Vg/0
+ Laureano           [rf] lf:Fr/296 cf:Fr/296 rf:Fr/296 OF:Vg
+ Machin             [3b] 3b:Av/94
+ Martin,Co          [mr] p:Fr/147
+ Mateo              [cf] 2b:Fr/144 3b:Fr/100 ss:Fr/140 lf:Av/139 cf:Fr/139 OF:Av
+ Mayo               [1b] 1b:Av/33 3b:Pr/117
+ McDermott          [mr] p:Av/94
+ Morton             [sp] p:Av/231
+ Mountcastle        [1b] 1b:Av/12
+ Mullins            [cf] cf:Av/115 OF:Pr
+ Noda               [rf] rf:Vg/95 OF:Av
+ O'Hearn            [1b] 1b:Vg/142 lf:Fr/71 rf:Fr/71 OF:Fr
+ O'Neill            [rf] lf:Fr/161 rf:Fr/161 OF:Vg
+ Perez,C            [mr] p:Vg/86
+ Poteet             [mr] p:Av/100
+ Povich             [sp] p:Av/123
+ Ragsdale           [mr] p:Av/97
+ Rivera             [3b] 1b:Av/91 3b:Av/99
+ Rodriguez,El       [mr] p:Av/100
+ Rogers,Tr          [sp] p:Av/27
+ Rutschman          [c] c:Av/53 Cthr:Av PB:1
+ Sanchez,G          [c] c:Av/176 Cthr:Fr PB:3
+ Selby              [mr] p:Av/91
+ Soto,G             [mr] p:Av/265
+ Stallings          [c] c:Av/107 Cthr:Fr PB:4
+ Strowd             [mr] p:Av/168
+ Suarez,A           [mr] p:Vg/92
+ Sugano             [sp] p:Vg/0
+ Tromp              [c] c:Av/131 Cthr:Fr PB:5
+ Urias,R            [3b] 1b:Vg/97 2b:Av/98 3b:Vg/48
+ Vavra              [2b] 2b:Av/100
+ Vazquez,L          [ss] 2b:Av/95 3b:Av/108 ss:Fr/109
+ Wells,T            [sp] p:Av/86
+ Westburg           [3b] 2b:Fr/72 3b:Av/72
+ Wolfram            [mr] p:Fr/82
+ Young,B            [sp] p:Fr/124
+
+## Boston
+ Abreu,W            [rf] rf:Ex/187 OF:Ex
+ Alcala             [mr] p:Vg/89
+ Anthony            [rf] lf:Vg/91 rf:Vg/91 OF:Vg
+ Bello              [sp] p:Av/126
+ Bernardino         [mr] p:Av/234
+ Bregman            [3b] 3b:Av/86
+ Buehler            [sp] p:Av/89
+ Burdi              [mr] p:Av/96
+ Campbell,I         [mr] p:Av/95
+ Campbell,K         [2b] 2b:Fr/195 lf:Av/86 cf:Fr/86 OF:Av
+ Casas              [1b] 1b:Fr/123
+ Chapman,A          [cl] p:Fr/59
+ Criswell           [mr] p:Av/203
+ Crochet            [sp] p:Fr/0
+ De Leon            [sp] p:Av/100
+ Dobbins            [sp] p:Av/59
+ Duran,Ja           [lf] lf:Vg/194 cf:Av/194 rf:Vg/194 OF:Av
+ Early              [sp] p:Av/87
+ Eaton              [rf] 3b:Pr/85 lf:Fr/73 cf:Fr/73 rf:Fr/73 OF:Ex
+ Fitts              [sp] p:Fr/70
+ Fulmer,M           [mr] p:Av/100
+ Garcia,J           [rf] lf:Av/95 rf:Av/95 OF:Av
+ Giolito            [sp] p:Fr/300
+ Gonzalez,R         [1b] 1b:Av/170 2b:Fr/123 3b:Fr/164
+ Guerrero,L         [mr] p:Fr/100
+ Hamilton,D         [2b] 2b:Vg/159 ss:Vg/102
+ Harrison           [sp] p:Av/92
+ Hendriks           [mr] p:Fr/91
+ Hicks,J            [mr] p:Av/88
+ Houck              [sp] p:Av/142
+ Kelly,Z            [mr] p:Av/153
+ Lowe,N             [1b] 1b:Av/52
+ Matz               [mr] p:Vg/86
+ May                [sp] p:Av/204
+ Mayer              [3b] 2b:Av/89 3b:Av/70 ss:Fr/112
+ Moran              [mr] p:Av/100
+ Murphy,C           [mr] p:Vg/77
+ Narvaez,C          [c] c:Vg/131 Cthr:Av PB:4
+ Newcomb            [mr] p:Av/73
+ Rafaela            [cf] 2b:Av/155 cf:Ex/128 OF:Vg
+ Refsnyder          [rf] lf:Av/117 rf:Av/117 OF:Av
+ Sabol              [c] c:Ex/133 Cthr:Pr PB:5
+ Sanchez,A          [c] c:Fr/99 Cthr:Av PB:3
+ Slaten             [mr] p:Av/77
+ Sogard             [1b] 1b:Av/118 2b:Av/87 3b:Av/92 ss:Fr/100 rf:Av/97 OF:Av
+ Stock              [mr] p:Av/100
+ Story              [ss] ss:Av/125
+ Tolle              [mr] p:Av/89
+ Toro               [1b] 1b:Av/108 3b:Fr/134
+ Weissert           [mr] p:Av/55
+ Whitlock           [mr] p:Fr/209
+ Wilson,Ju          [mr] p:Fr/68
+ Winckowski         [mr] p:Fr/244
+ Wong               [c] c:Vg/163 Cthr:Av PB:2
+ Yoshida            [dh] lf:Fr/92 rf:Fr/92 OF:Av
+
+## Chicago (A)
+ Alexander,T        [mr] p:Av/59
+ Altavilla          [mr] p:Fr/81
+ Amaya,J            [ss] 2b:Av/99 ss:Av/79
+ Baldwin,B          [lf] 2b:Av/91 3b:Av/122 ss:Fr/91 lf:Av/300 cf:Fr/300 rf:Av/300 OF:Av
+ Benintendi         [lf] lf:Fr/175 OF:Av
+ Booser             [mr] p:Av/282
+ Burke,S            [sp] p:Av/300
+ Cannon             [sp] p:Av/115
+ Capra              [ss] 2b:Vg/98 3b:Vg/95 ss:Av/84
+ Castro,M           [mr] p:Vg/96
+ Civale             [sp] p:Av/55
+ Clevinger          [mr] p:Av/96
+ Dalbec             [1b] 1b:Av/96 3b:Av/98 ss:Fr/98
+ Eisert             [mr] p:Ex/54
+ Elko               [1b] 1b:Av/69
+ Ellard             [mr] p:Fr/89
+ Fletcher           [rf] cf:Av/83 rf:Vg/83 OF:Av
+ Freeman,Ca         [mr] p:Av/100
+ Gilbert,T          [mr] p:Av/66
+ Gomez              [sp] p:Av/68
+ Gonzalez,W         [mr] p:Av/86
+ Hill,D             [cf] cf:Vg/96 OF:Av
+ Houser             [sp] p:Vg/107
+ Hudson             [mr] p:Av/97
+ Jankowski          [rf] cf:Vg/93 rf:Ex/93 OF:Fr
+ Jones,G            [rf] rf:Av/100 OF:Fr
+ Julks              [lf] lf:Av/94 OF:Av
+ Leasure            [mr] p:Fr/57
+ Lee,K              [c] c:Av/83 Cthr:Av PB:3
+ Martin,D           [sp] p:Av/5
+ Maton,N            [dh] 1b:Fr/96 2b:Pr/119
+ Mead               [3b] 1b:Av/80 3b:Fr/115
+ Meidroth           [ss] 2b:Av/101 ss:Fr/157
+ Montgomery,C       [ss] 3b:Vg/111 ss:Vg/76
+ Murfee             [mr] p:Av/92
+ Narvaez,O          [c] c:Av/122 Cthr:Pr PB:4
+ Noda               [1b] 1b:Av/85 rf:Vg/98 OF:Av
+ Palacios,J         [rf] lf:Fr/203 rf:Fr/203 OF:Av
+ Palisch            [mr] p:Av/100
+ Peguero,E          [sp] p:Av/100
+ Perez,M            [sp] p:Av/300
+ Quero              [c] c:Fr/51 Cthr:Pr PB:0
+ Ramos,B            [3b] 3b:Fr/94
+ Robert,L           [cf] cf:Av/29 OF:Av
+ Robertson,W        [lf] lf:Av/137 rf:Av/137 OF:Av
+ Rojas,Jos          [3b] 2b:Av/94 3b:Av/130 lf:Av/95 OF:Av
+ Shuster            [mr] p:Av/90
+ Slater             [rf] lf:Av/182 cf:Av/182 rf:Av/182 OF:Ex
+ Smith,S            [sp] p:Av/2
+ Sosa,L             [2b] 1b:Av/125 2b:Fr/190 3b:Fr/96
+ Tauchman           [rf] rf:Av/0 OF:Fr
+ Taylor,G           [mr] p:Pr/235
+ Taylor,M           [cf] lf:Ex/107 cf:Vg/107 rf:Ex/107 OF:Av
+ Teel               [c] c:Fr/142 Cthr:Av PB:7
+ Thaiss             [c] c:Av/221 1b:Pr/100 Cthr:Fr PB:2
+ Vargas,M           [3b] 1b:Av/81 3b:Fr/140 lf:Pr/100 OF:Fr
+ Vasil              [mr] p:Av/33
+ Vaughn             [1b] 1b:Fr/49
+ White,O            [mr] p:Av/95
+ Wilson,B           [mr] p:Fr/300
+ Wilson,S           [mr] p:Av/100
+ Workman            [3b] 3b:Fr/111 ss:Fr/100
+
+## Chicago (N)
+ Alcantara,K        [cf] lf:Av/93 cf:Av/93 rf:Av/93 OF:Av
+ Amaya,M            [c] c:Fr/85 Cthr:Vg PB:1
+ Assad              [sp] p:Av/75
+ Ballesteros        [dh] c:Av/99 1b:Av/100 Cthr:Fr PB:4
+ Berti              [3b] 2b:Av/115 3b:Av/104
+ Boyd               [sp] p:Vg/206
+ Brasier            [mr] p:Fr/83
+ Brown,B            [sp] p:Fr/29
+ Brujan             [3b] 2b:Fr/98 3b:Fr/147 ss:Pr/99 lf:Vg/95 cf:Vg/95 rf:Vg/95 OF:Av
+ Busch              [1b] 1b:Av/64
+ Cabrera,G          [mr] p:Fr/100
+ Caissie            [rf] lf:Av/90 rf:Av/90 OF:Av
+ Castro,W           [rf] 2b:Fr/92 3b:Fr/89 lf:Av/71 cf:Fr/71 rf:Av/71 OF:Av
+ Civale             [mr] p:Av/100
+ Cosgrove           [mr] p:Vg/97
+ Crow-Armstrong     [cf] cf:Ex/39 OF:Ex
+ Flexen             [mr] p:Av/152
+ Fulmer,M           [mr] p:Av/98
+ Happ               [lf] lf:Vg/28 OF:Vg
+ Hodge              [mr] p:Av/78
+ Hoerner            [2b] 2b:Ex/42 ss:Vg/93
+ Hollowell          [mr] p:Av/94
+ Horton             [sp] p:Fr/131
+ Imanaga            [sp] p:Av/239
+ Keller,B           [mr] p:Av/54
+ Kelly,Car          [c] c:Fr/36 Cthr:Vg PB:2
+ Kittredge          [mr] p:Av/86
+ Kriske             [mr] p:Vg/96
+ Little,L           [mr] p:Av/133
+ Lopez,N            [3b] 3b:Vg/90 ss:Av/99
+ McGuire            [c] c:Fr/63 Cthr:Av PB:0
+ Merryweather       [mr] p:Av/209
+ Morgan,E           [mr] p:Ex/95
+ Palencia           [cl] p:Fr/65
+ Pearson            [mr] p:Fr/90
+ Pomeranz           [mr] p:Av/67
+ Pressly            [mr] p:Av/72
+ Rea                [sp] p:Av/46
+ Roberts            [mr] p:Av/94
+ Rogers,Ta          [mr] p:Av/165
+ Santana,C          [1b] 1b:Vg/94
+ Shaw               [3b] 2b:Fr/99 3b:Av/64
+ Soroka             [mr] p:Av/94
+ Steele             [sp] p:Av/85
+ Suzuki             [dh] lf:Av/239 cf:Fr/239 rf:Av/239 OF:Av
+ Swanson,D          [ss] ss:Vg/79
+ Taillon            [sp] p:Av/14
+ Thielbar           [mr] p:Av/61
+ Tucker             [rf] rf:Av/97 OF:Av
+ Turner,J           [1b] 1b:Av/96 3b:Fr/93
+ Wicks              [mr] p:Av/90
+ Workman            [3b] 3b:Fr/133 ss:Fr/99
+
+## Cincinnati
+ Abbott             [sp] p:Av/109
+ Andujar            [dh] 1b:Pr/98 lf:Pr/97 OF:Av
+ Ashcraft,G         [mr] p:Av/138
+ Banfield           [c] c:Av/115 Cthr:Fr PB:4
+ Barlow             [mr] p:Av/54
+ Benson             [rf] lf:Av/106 cf:Av/106 rf:Av/106 OF:Av
+ Burns              [sp] p:Vg/152
+ Callihan           [lf] 2b:Av/99 lf:Fr/97 OF:Av
+ Candelario         [3b] 1b:Av/87 3b:Fr/108
+ De La Cruz,E       [ss] ss:Av/187
+ Diaz,A             [mr] p:Av/96
+ Dunn,B             [rf] lf:Ex/64 cf:Vg/64 rf:Ex/64 OF:Av
+ Encarnacn-Stran    [1b] 1b:Av/137 3b:Fr/125
+ Espinal            [3b] 1b:Av/97 2b:Av/106 3b:Av/23 ss:Fr/99 lf:Fr/221 rf:Fr/221 OF:Av
+ Fraley             [rf] lf:Av/194 rf:Av/194 OF:Fr
+ Friedl             [cf] cf:Fr/67 OF:Pr
+ Gibaut             [mr] p:Fr/166
+ Greene,H           [sp] p:Av/28
+ Hampson            [lf] 2b:Vg/98 3b:Vg/99 ss:Av/98 lf:Vg/95 cf:Vg/95 OF:Fr
+ Hayes              [3b] 3b:Ex/36
+ Hays               [lf] lf:Av/199 OF:Vg
+ Hinds              [rf] rf:Vg/78 OF:Vg
+ Hurtubise          [lf] lf:Fr/95 OF:Av
+ Joe                [rf] 1b:Av/96 lf:Av/151 cf:Fr/151 rf:Av/151 OF:Av
+ La Sorsa           [mr] p:Av/100
+ Littell            [sp] p:Av/64
+ Lodolo             [sp] p:Av/178
+ Lux                [dh] 2b:Fr/128 3b:Fr/110 lf:Pr/199 OF:Av
+ Marte,N            [rf] 3b:Pr/144 cf:Fr/11 rf:Fr/11 OF:Ex
+ Martinez,N         [sp] p:Av/85
+ Maxwell            [mr] p:Av/100
+ McLain             [2b] 2b:Av/78 ss:Av/115
+ Mey                [mr] p:Av/86
+ Miley              [sp] p:Av/92
+ Moll               [mr] p:Fr/88
+ Pagan              [cl] p:Av/54
+ Petty              [sp] p:Av/96
+ Phillips,C         [mr] p:Fr/192
+ Richardson         [mr] p:Av/124
+ Rogers,Ta          [mr] p:Av/78
+ Sanmartin          [mr] p:Fr/100
+ Santillan          [mr] p:Av/51
+ Singer             [sp] p:Av/0
+ Spiers             [sp] p:Av/91
+ Steer              [1b] 1b:Vg/40 lf:Fr/85 OF:Av
+ Stephenson,T       [c] c:Fr/51 Cthr:Av PB:1
+ Stewart,S          [1b] 1b:Av/119 3b:Fr/93
+ Suter              [mr] p:Av/220
+ Trevino            [c] c:Vg/74 Cthr:Av PB:2
+ Vilade             [lf] lf:Av/100 OF:Av
+ Wynne              [cl] p:Av/100
+ Wynns              [c] c:Fr/80 1b:Pr/99 Cthr:Av PB:3
+ Zulueta            [mr] p:Av/95
+
+## Cleveland
+ Allard             [mr] p:Av/57
+ Allen,L            [sp] p:Fr/300
+ Arias,G            [ss] 2b:Vg/66 3b:Av/111 ss:Av/140
+ Bibee              [sp] p:Av/0
+ Bolton             [mr] p:Av/100
+ Brennan            [rf] rf:Av/93 OF:Vg
+ Cantillo           [mr] p:Vg/36
+ Cecconi            [sp] p:Fr/242
+ Clase,E            [cl] p:Av/206
+ Enright            [mr] p:Av/79
+ Festa,M            [mr] p:Av/64
+ Gaddis             [mr] p:Av/143
+ Halpin             [cf] cf:Av/97 OF:Fr
+ Hedges             [c] c:Pr/32 Cthr:Vg PB:0
+ Hernandez,C        [mr] p:Av/95
+ Herrin             [mr] p:Vg/72
+ Jones,N            [rf] lf:Fr/38 cf:Pr/38 rf:Fr/38 OF:Av
+ Junis              [mr] p:Av/56
+ Kayfus             [rf] 1b:Av/156 rf:Av/59 OF:Vg
+ Kent               [mr] p:Av/88
+ Kwan               [lf] lf:Ex/205 OF:Vg
+ Lively             [sp] p:Fr/70
+ Manzardo           [dh] 1b:Av/167
+ Martinez,A         [cf] 2b:Fr/191 lf:Av/180 cf:Fr/180 rf:Av/180 OF:Fr
+ McKenzie           [mr] p:Fr/96
+ Messick            [sp] p:Pr/300
+ Naylor,B           [c] c:Av/102 Cthr:Av PB:1
+ Nikhazy            [sp] p:Av/100
+ Noel               [rf] 1b:Av/90 rf:Av/40 OF:Vg
+ Nunez,Do           [c] c:Av/97 Cthr:Fr PB:4
+ Ortiz,L            [sp] p:Vg/300
+ Ramirez,J          [3b] 3b:Vg/108
+ Rocchio            [ss] 2b:Av/126 ss:Av/156
+ Rodriguez,Jo       [rf] lf:Pr/279 rf:Pr/279 OF:Vg
+ Sabrowski          [mr] p:Av/80
+ Santana,C          [1b] 1b:Vg/46
+ Schneemann         [2b] 2b:Av/56 3b:Av/72 ss:Fr/89 lf:Ex/55 cf:Vg/55 rf:Ex/55 OF:Fr
+ Sewald             [mr] p:Av/290
+ Smith,Cad          [mr] p:Av/138
+ Thomas,L           [cf] cf:Fr/95 rf:Av/95 OF:Av
+ Valera             [dh] rf:Fr/94 OF:Av
+ Walters            [mr] p:Av/100
+ Williams,G         [sp] p:Av/0
+ Wilson,Wi          [3b] 2b:Fr/120 3b:Av/110
+
+## Colorado
+ Agnos              [mr] p:Av/79
+ Alexander,S        [mr] p:Av/89
+ Amador             [2b] 2b:Fr/123
+ Anderson,N         [mr] p:Av/128
+ Arcia              [3b] 1b:Av/85 2b:Av/103 3b:Vg/129 ss:Av/122
+ Beck,J             [lf] lf:Av/89 OF:Av
+ Bernabel           [1b] 1b:Av/149 3b:Fr/99
+ Bird               [mr] p:Av/151
+ Blalock            [sp] p:Fr/188
+ Bouchard           [rf] 1b:Av/99 lf:Fr/160 rf:Fr/160 OF:Fr
+ Brown,M            [sp] p:Ex/83
+ Chivilli           [mr] p:Av/61
+ Contreras,R        [mr] p:Av/94
+ Crim               [1b] 1b:Av/77
+ Darnell            [mr] p:Vg/92
+ Dollander          [sp] p:Av/300
+ Doyle              [cf] cf:Vg/44 OF:Vg
+ Estrada,T          [2b] 2b:Av/147
+ Farmer             [2b] 1b:Vg/140 2b:Fr/52 3b:Av/107 ss:Fr/101
+ Feltner            [sp] p:Fr/80
+ Fernandez,Y        [dh] lf:Fr/177 rf:Fr/177 OF:Ex
+ Freeland,K         [sp] p:Av/300
+ Freeman,T          [rf] 2b:Pr/110 rf:Fr/78 OF:Fr
+ Fulford            [c] c:Av/250 Cthr:Av PB:2
+ Gilbreath          [mr] p:Av/100
+ Gomber             [sp] p:Vg/62
+ Goodman            [c] c:Av/185 Cthr:Av PB:3
+ Gordon,T           [sp] p:Av/132
+ Halvorsen          [cl] p:Fr/113
+ Herget,J           [mr] p:Av/143
+ Hill,J             [mr] p:Av/80
+ Hilliard           [lf] lf:Fr/74 cf:Pr/74 rf:Fr/74 OF:Vg
+ Hiura              [1b] 1b:Fr/184
+ Karros             [3b] 3b:Vg/68
+ Kinley             [mr] p:Av/68
+ Marquez            [sp] p:Fr/16
+ Martini            [dh] lf:Fr/78 rf:Fr/78 OF:Av
+ McMahon            [3b] 3b:Vg/60
+ Mejia              [mr] p:Av/219
+ Miller,O           [2b] 2b:Vg/93 3b:Vg/99
+ Molina             [mr] p:Av/77
+ Moniak             [rf] lf:Av/235 cf:Fr/235 rf:Av/235 OF:Pr
+ Nola,Au            [c] c:Av/82 1b:Pr/99 Cthr:Av PB:3
+ Palmquist          [sp] p:Vg/77
+ Peralta,L          [mr] p:Av/87
+ Ritter             [ss] 2b:Av/79 ss:Av/132
+ Rolison            [mr] p:Av/222
+ Romo               [c] c:Av/100 Cthr:Fr PB:4
+ Schunk             [ss] 2b:Vg/95 3b:Vg/97 ss:Vg/89
+ Senzatela          [sp] p:Av/13
+ Stallings          [c] c:Av/186 Cthr:Fr PB:4
+ Toglia             [1b] 1b:Av/67
+ Tovar              [ss] ss:Vg/96
+ Trejo              [ss] ss:Av/107
+ Veen               [rf] lf:Av/83 rf:Av/83 OF:Vg
+ Vodnik             [mr] p:Fr/66
+
+## Detroit
+ Baddoo             [lf] lf:Vg/91 rf:Vg/91 OF:Vg
+ Baez               [ss] 2b:Vg/92 3b:Av/90 ss:Av/154 cf:Vg/19 OF:Fr
+ Brebbia            [mr] p:Av/88
+ Brieske            [mr] p:Vg/85
+ Carpenter          [rf] lf:Av/180 rf:Av/180 OF:Av
+ Dingler            [c] c:Av/95 Cthr:Vg PB:0
+ Enns               [mr] p:Fr/88
+ Finnegan           [cl] p:Av/88
+ Flaherty           [sp] p:Av/0
+ Gage               [mr] p:Fr/100
+ Gipson-Long        [mr] p:Fr/147
+ Greene,R           [lf] lf:Vg/58 cf:Av/58 rf:Vg/58 OF:Av
+ Guenther           [mr] p:Av/93
+ Hanifee            [mr] p:Av/217
+ Hartlieb           [mr] p:Av/99
+ Hernandez,C        [mr] p:Av/93
+ Heuer              [mr] p:Av/141
+ Hicklen            [cf] cf:Av/98 OF:Av
+ Holton             [mr] p:Vg/121
+ Horn               [mr] p:Av/92
+ Hurter             [mr] p:Fr/195
+ Ibanez             [3b] 1b:Vg/97 2b:Ex/94 3b:Ex/91
+ Jackson,L          [mr] p:Fr/97
+ Jobe               [sp] p:Av/174
+ Jones,J            [dh] lf:Pr/168 rf:Pr/168 OF:Av
+ Jung,Ja            [3b] 3b:Fr/89
+ Kahnle             [mr] p:Pr/58
+ Keith              [dh] 1b:Vg/71 2b:Av/174 3b:Av/88
+ Kreidler           [cf] cf:Av/77 OF:Av
+ Lange              [mr] p:Av/100
+ Lee,C              [mr] p:Av/75
+ Maeda              [mr] p:Av/95
+ Malloy             [dh] lf:Fr/83 rf:Fr/83 OF:Av
+ Margot             [rf] rf:Av/155 OF:Av
+ McKinstry          [3b] 2b:Av/128 3b:Av/102 ss:Av/115 lf:Vg/42 rf:Vg/42 OF:Av
+ Meadows            [cf] cf:Vg/73 OF:Av
+ Melton,T           [mr] p:Vg/70
+ Mize               [sp] p:Av/150
+ Montero,K          [sp] p:Av/40
+ Montero,R          [mr] p:Av/85
+ Morton             [sp] p:Av/74
+ Nido               [c] c:Fr/112 Cthr:Av PB:4
+ Olson,R            [sp] p:Fr/54
+ Owens              [mr] p:Av/100
+ Paddack            [sp] p:Av/69
+ Perez,W            [rf] lf:Av/136 cf:Av/136 rf:Av/136 OF:Fr
+ Rainey             [mr] p:Av/99
+ Rogers,J           [c] c:Av/155 Cthr:Av PB:1
+ Sewald             [mr] p:Av/100
+ Skubal             [sp] p:Vg/93
+ Smith,Dy           [mr] p:Av/91
+ Sommers            [mr] p:Av/100
+ Sweeney            [ss] ss:Av/81
+ Torkelson          [1b] 1b:Av/74
+ Torres             [2b] 2b:Fr/62
+ Urquidy            [mr] p:Av/100
+ Vest               [cl] p:Av/54
+ Vierling           [cf] 3b:Av/100 lf:Av/59 cf:Av/59 rf:Av/59 OF:Av
+
+## Houston
+ Abreu,B            [mr] p:Av/145
+ Alexander,J        [sp] p:Av/52
+ Altuve             [2b] 2b:Fr/121 lf:Pr/129 OF:Av
+ Alvarez,Y          [dh] lf:Pr/152 OF:Av
+ Arrighetti         [sp] p:Av/76
+ Blanco,R           [sp] p:Av/68
+ Blubaugh           [mr] p:Av/79
+ Brown,H            [sp] p:Av/0
+ Caratini           [c] c:Av/150 1b:Pr/81 Cthr:Pr PB:1
+ Cole               [rf] lf:Av/77 cf:Fr/77 rf:Av/77 OF:Av
+ Contreras,L        [mr] p:Vg/92
+ Corona             [cf] cf:Av/98 OF:Fr
+ Correa             [3b] 3b:Vg/76 ss:Av/95
+ De Los Santos,E    [mr] p:Av/85
+ Dezenzo            [lf] 1b:Pr/97 lf:Av/131 rf:Av/131 OF:Fr
+ Diaz,Yai           [c] c:Av/39 Cthr:Av PB:3
+ Dubin              [mr] p:Fr/83
+ Dubon              [2b] 1b:Vg/97 2b:Ex/89 3b:Ex/72 ss:Ex/81 lf:Ex/246 cf:Vg/246 rf:Ex/246 OF:Vg
+ France,JP          [mr] p:Av/100
+ Garcia,LH          [sp] p:Av/95
+ Gordon,C           [sp] p:Av/183
+ Guillorme          [3b] 2b:Av/96 3b:Av/92
+ Gusto              [sp] p:Fr/43
+ Hader              [cl] p:Ex/65
+ Hernandez,N        [mr] p:Av/100
+ Hummel             [lf] lf:Pr/63 OF:Fr
+ Javier             [sp] p:Av/172
+ Kimbrel            [mr] p:Av/93
+ King,B             [mr] p:Av/166
+ Matthews,B         [2b] 2b:Av/108
+ McCormick          [cf] lf:Vg/42 cf:Av/42 rf:Vg/42 OF:Av
+ McCullers          [sp] p:Av/115
+ Melton,J           [cf] lf:Vg/59 cf:Av/59 rf:Vg/59 OF:Av
+ Meyers             [cf] cf:Vg/37 OF:Fr
+ Montero,R          [mr] p:Av/97
+ Murray             [mr] p:Av/92
+ Neris              [mr] p:Av/92
+ Okert              [mr] p:Av/169
+ Ort                [mr] p:Fr/69
+ Paredes            [3b] 3b:Fr/68
+ Pena               [ss] ss:Vg/87
+ Rodgers            [2b] 2b:Av/144
+ Rooney             [mr] p:Av/100
+ Salazar,C          [c] c:Vg/140 Cthr:Pr PB:4
+ Sanchez,J          [lf] lf:Av/300 rf:Av/300 OF:Ex
+ Scott,Tay          [mr] p:Vg/168
+ Short              [ss] ss:Pr/112
+ Singleton          [dh] 1b:Fr/99
+ Smith,Cam          [rf] rf:Vg/66 OF:Vg
+ Sousa              [mr] p:Vg/198
+ Trammell           [cf] lf:Vg/40 cf:Av/40 rf:Vg/40 OF:Fr
+ Urias,R            [2b] 2b:Av/65 3b:Vg/105
+ Valdez,F           [sp] p:Av/0
+ VanWey             [mr] p:Av/93
+ Walker,C           [1b] 1b:Vg/89
+ Walter             [sp] p:Fr/64
+ Weems              [mr] p:Vg/100
+ Wesneski           [sp] p:Av/79
+ Whitcomb           [2b] 2b:Pr/121 3b:Pr/95
+ Whitley            [mr] p:Av/100
+
+## Kansas City
+ Avila              [mr] p:Av/100
+ Bergert            [sp] p:Av/73
+ Biggio             [1b] 1b:Av/91 2b:Pr/114 3b:Pr/98 lf:Vg/86 rf:Vg/86 OF:Av
+ Blanco,D           [cf] lf:Av/95 cf:Fr/95 OF:Av
+ Bowlan             [mr] p:Vg/70
+ Bubic              [sp] p:Av/112
+ Caglianone         [rf] 1b:Av/95 rf:Fr/163 OF:Vg
+ Cameron,N          [sp] p:Av/8
+ Canha              [lf] 1b:Av/97 lf:Fr/62 rf:Fr/62 OF:Pr
+ Clarke,T           [mr] p:Av/153
+ Cruz,S             [mr] p:Av/70
+ Erceg              [mr] p:Av/182
+ Estevez            [cl] p:Av/56
+ Falter             [sp] p:Av/100
+ Fermin,F           [c] c:Vg/65 Cthr:Ex PB:3
+ Frazier            [2b] 2b:Av/66 3b:Av/93 lf:Av/134 rf:Av/134 OF:Fr
+ Garcia,M           [3b] 2b:Av/87 3b:Vg/56 ss:Av/102 cf:Av/93 rf:Av/93 OF:Av
+ Grichuk            [rf] lf:Fr/145 cf:Fr/145 rf:Fr/145 OF:Ex
+ Harvey             [mr] p:Fr/100
+ Hatch              [mr] p:Av/100
+ Hill,R             [sp] p:Av/94
+ Hoffmann           [mr] p:Av/97
+ India              [2b] 2b:Fr/151 3b:Fr/151 lf:Pr/148 OF:Vg
+ Isbel              [cf] cf:Vg/25 OF:Av
+ Jensen             [dh] c:Fr/87 Cthr:Av PB:3
+ Kolek              [sp] p:Fr/164
+ Loftin             [lf] 1b:Vg/97 2b:Ex/82 3b:Ex/95 lf:Fr/58 OF:Av
+ Long               [mr] p:Av/161
+ Lorenzen           [sp] p:Av/6
+ Lugo,S             [sp] p:Av/3
+ Lynch              [mr] p:Av/55
+ Maile              [c] c:Fr/71 Cthr:Vg PB:5
+ Massey             [2b] 2b:Av/26 lf:Vg/138 OF:Av
+ Melendez           [lf] lf:Fr/73 rf:Fr/73 OF:Vg
+ Pasquantino        [1b] 1b:Av/67
+ Perez,S            [c] c:Fr/0 1b:Pr/86 Cthr:Ex PB:1
+ Ragans             [sp] p:Av/59
+ Rave               [lf] lf:Vg/213 cf:Av/213 rf:Vg/213 OF:Av
+ Renfroe            [rf] rf:Fr/129 OF:Pr
+ Richards           [mr] p:Fr/98
+ Schreiber          [mr] p:Av/162
+ Sisk               [mr] p:Av/96
+ Stratton,C         [mr] p:Av/89
+ Tolbert            [cf] 2b:Fr/98 3b:Fr/116 ss:Fr/98 lf:Av/72 cf:Av/72 rf:Av/72 OF:Vg
+ Wacha              [sp] p:Av/0
+ Waters             [lf] lf:Av/205 cf:Av/205 rf:Av/205 OF:Ex
+ Witt               [ss] ss:Ex/72
+ Yastrzemski        [rf] lf:Av/33 cf:Fr/33 rf:Av/33 OF:Av
+ Zerpa              [mr] p:Vg/57
+
+## Los Angeles (A)
+ Adell              [cf] cf:Fr/172 rf:Av/172 OF:Fr
+ Aldegheri          [sp] p:Fr/91
+ Anderson,I         [mr] p:Av/94
+ Anderson,S         [mr] p:Fr/92
+ Anderson,Ti        [2b] 2b:Av/124 ss:Av/114
+ Anderson,Ty        [sp] p:Av/9
+ Bachman            [mr] p:Av/175
+ Brogdon            [mr] p:Av/191
+ Burke,B            [mr] p:Av/183
+ Campero            [rf] lf:Fr/129 cf:Fr/129 rf:Fr/129 OF:Av
+ Chafin             [mr] p:Av/91
+ Dana               [sp] p:Av/78
+ Darrell-Hicks      [mr] p:Av/95
+ Davidson           [1b] 1b:Av/157
+ Davis,JD           [1b] 1b:Av/97 3b:Fr/98
+ Detmers            [mr] p:Fr/58
+ Eder               [mr] p:Av/88
+ Edwards,C          [mr] p:Av/98
+ Farris             [sp] p:Av/84
+ Fermin,JM          [mr] p:Av/77
+ Fulmer,C           [mr] p:Av/80
+ Garcia,LA          [mr] p:Av/88
+ Guzman             [ss] ss:Pr/122
+ Hendricks          [sp] p:Av/82
+ Jansen,K           [cl] p:Fr/300
+ Johnson,R          [mr] p:Av/90
+ Joyce              [mr] p:Pr/100
+ Kavadas            [1b] 1b:Av/88
+ Kieboom            [1b] 1b:Fr/138
+ Kikuchi            [sp] p:Av/217
+ Kingery            [2b] 2b:Pr/89 ss:Pr/119 cf:Av/98 rf:Av/98 OF:Fr
+ Kochanowicz        [sp] p:Av/267
+ Lopez,N            [ss] 3b:Vg/98 ss:Av/132
+ Lugo,M             [cf] lf:Pr/237 cf:Pr/237 rf:Pr/237 OF:Av
+ McDaniels          [mr] p:Fr/100
+ Mederos            [sp] p:Av/100
+ Moncada            [3b] 3b:Pr/147
+ Moore,C            [2b] 2b:Fr/108
+ Neris              [mr] p:Av/91
+ Neto               [ss] ss:Av/89
+ Newman             [3b] 1b:Av/97 2b:Av/113 3b:Av/144 ss:Fr/94
+ O'Hoppe            [c] c:Fr/92 Cthr:Vg PB:2
+ Paris              [cf] 2b:Vg/69 lf:Av/63 cf:Av/63 OF:Fr
+ Peralta,S          [mr] p:Av/93
+ Peraza             [1b] 1b:Vg/217 3b:Vg/85 ss:Av/94
+ Quijada            [mr] p:Av/100
+ Rengifo            [2b] 2b:Fr/76 3b:Fr/140 lf:Av/96 rf:Av/96 OF:Av
+ Rivero             [c] c:Fr/110 Cthr:Fr PB:3
+ Schanuel           [1b] 1b:Av/98
+ Silseth            [mr] p:Av/93
+ Soler              [rf] rf:Pr/37 OF:Fr
+ Soriano,J          [sp] p:Av/0
+ Stephenson,R       [mr] p:Av/100
+ Stevens            [2b] 2b:Av/95 3b:Av/97
+ Strickland         [mr] p:Fr/85
+ Taylor,C           [rf] 2b:Fr/90 3b:Fr/99 lf:Av/71 cf:Fr/71 rf:Av/71 OF:Av
+ Teodosio           [cf] cf:Av/68 OF:Av
+ Toussaint          [mr] p:Fr/100
+ Trout              [dh] rf:Av/63 OF:Av
+ Urena              [mr] p:Av/137
+ Wade,L             [rf] 1b:Av/94 lf:Fr/74 rf:Fr/74 OF:Av
+ Wallach            [c] c:Pr/100 Cthr:Av PB:4
+ Ward               [lf] lf:Vg/109 OF:Pr
+ Zeferjahn          [mr] p:Vg/62
+ d'Arnaud           [c] c:Fr/63 Cthr:Fr PB:1
+
+## Los Angeles (N)
+ Banda              [mr] p:Vg/57
+ Barnes,A           [c] c:Fr/79 Cthr:Pr PB:3
+ Betts              [ss] ss:Vg/61
+ Call               [lf] lf:Vg/62 rf:Vg/62 OF:Fr
+ Casparius          [mr] p:Fr/300
+ Conforto           [lf] lf:Fr/168 OF:Vg
+ Davis,N            [mr] p:Fr/100
+ Dean               [cf] cf:Av/95 OF:Av
+ Diaz,A             [mr] p:Av/100
+ Dreyer             [mr] p:Fr/49
+ Edman              [2b] 2b:Vg/28 3b:Vg/95 cf:Av/64 OF:Av
+ Feduccia           [1b] 1b:Fr/100
+ Fernandez,J        [mr] p:Vg/99
+ Feyereisen         [mr] p:Av/100
+ Freeland,A         [3b] 2b:Vg/83 3b:Vg/104
+ Freeman,F          [1b] 1b:Av/47
+ Garcia,LA          [mr] p:Av/82
+ Gervase            [mr] p:Av/100
+ Glasnow            [sp] p:Av/40
+ Gomez              [cl] p:Av/100
+ Gonsolin           [sp] p:Vg/76
+ Heaney             [mr] p:Av/99
+ Henriquez,E        [mr] p:Fr/170
+ Hernandez,E        [3b] 1b:Vg/66 2b:Av/108 3b:Av/117 lf:Vg/150 cf:Av/150 OF:Av
+ Hernandez,T        [rf] rf:Fr/64 OF:Vg
+ Kennedy            [3b] 3b:Av/91
+ Kershaw            [sp] p:Av/25
+ Kim,Hy             [2b] 2b:Vg/131 ss:Vg/91 cf:Fr/83 OF:Av
+ Klein              [mr] p:Vg/90
+ Knack              [sp] p:Av/72
+ Kopech             [mr] p:Av/100
+ Little,J           [mr] p:Av/100
+ Loutos             [mr] p:Av/100
+ May                [sp] p:Av/31
+ Miller,Bo          [sp] p:Av/97
+ Muncy,Max          [3b] 3b:Av/136
+ Ohtani             [dh] p:Vg/69
+ Outman             [cf] cf:Av/78 rf:Av/78 OF:Av
+ Pages,A            [cf] lf:Av/249 cf:Av/249 rf:Av/249 OF:Ex
+ Phillips,E         [mr] p:Av/96
+ Robinson           [c] c:Pr/99 Cthr:Fr PB:4
+ Rojas,M            [2b] 1b:Av/99 2b:Ex/72 3b:Vg/85 ss:Vg/95
+ Rortvedt           [c] c:Fr/72 Cthr:Fr PB:1
+ Ruiz,E             [lf] lf:Av/167 rf:Av/167 OF:Pr
+ Rushing            [c] c:Ex/61 1b:Fr/94 Cthr:Vg PB:3
+ Sasaki             [sp] p:Fr/76
+ Sauer              [mr] p:Fr/80
+ Scott,Tan          [cl] p:Fr/62
+ Sheehan            [sp] p:Fr/211
+ Smith,W            [c] c:Av/63 Cthr:Av PB:1
+ Snell              [sp] p:Av/59
+ Stewart,B          [mr] p:Av/100
+ Stratton,C         [mr] p:Av/100
+ Taylor,C           [lf] 2b:Fr/97 lf:Av/84 cf:Fr/84 rf:Av/84 OF:Av
+ Treinen            [mr] p:Fr/82
+ Trivino            [mr] p:Av/82
+ Urena              [mr] p:Av/100
+ Vesia              [mr] p:Av/60
+ Wrobleski          [mr] p:Av/56
+ Yamamoto           [sp] p:Av/43
+ Yates              [mr] p:Av/132
+
+## Miami
+ Acosta             [3b] 2b:Fr/150 3b:Fr/85 ss:Pr/92
+ Alcantara,Sa       [sp] p:Av/0
+ Arias,L            [mr] p:Av/93
+ Bachar             [mr] p:Vg/53
+ Bellozo            [mr] p:Av/46
+ Bender             [mr] p:Vg/67
+ Brantly            [c] c:Vg/97 Cthr:Pr PB:4
+ Bride              [dh] 1b:Vg/94 3b:Av/96
+ Cabrera,E          [sp] p:Av/8
+ Conine             [lf] lf:Av/65 rf:Av/65 OF:Fr
+ Curry              [mr] p:Av/98
+ Edwards,X          [2b] 2b:Av/71 ss:Fr/149
+ Faucher            [mr] p:Vg/60
+ Fortes             [c] c:Vg/154 Cthr:Fr PB:4
+ Gibson,C           [mr] p:Vg/64
+ Gillispie          [sp] p:Av/151
+ Gusto              [sp] p:Fr/100
+ Henriquez,R        [mr] p:Av/51
+ Hernandez,H        [lf] lf:Av/240 rf:Av/240 OF:Fr
+ Hicks,L            [c] c:Av/76 1b:Pr/97 Cthr:Pr PB:3
+ Hill,D             [cf] cf:Vg/38 OF:Av
+ Johnston           [1b] 1b:Av/78 lf:Av/156 rf:Av/156 OF:Fr
+ Junk               [sp] p:Av/27
+ Lopez,O            [ss] 2b:Ex/96 ss:Vg/106
+ Marsee             [cf] lf:Vg/62 cf:Av/62 rf:Vg/62 OF:Fr
+ Martinez,S         [mr] p:Av/96
+ Mazur              [sp] p:Vg/80
+ Mervis             [1b] 1b:Fr/99
+ Mesa               [rf] lf:Av/82 cf:Av/82 rf:Av/82 OF:Fr
+ Meyer              [sp] p:Av/57
+ Monteverde         [mr] p:Av/100
+ Myers,D            [cf] lf:Av/112 cf:Av/112 rf:Av/112 OF:Av
+ Navarreto          [c] c:Vg/93 Cthr:Fr PB:4
+ Norby              [3b] 3b:Fr/127
+ Pauley             [3b] 1b:Vg/94 2b:Vg/95 3b:Ex/54
+ Perez,E            [sp] p:Av/150
+ Petersen           [mr] p:Av/92
+ Phillips,T         [mr] p:Av/48
+ Pina               [mr] p:Av/99
+ Quantrill          [sp] p:Av/27
+ Ramirez,A          [c] c:Fr/244 Cthr:Pr PB:13
+ Roa                [mr] p:Av/100
+ Sanchez,J          [rf] lf:Av/106 cf:Fr/106 rf:Av/106 OF:Ex
+ Sanoja             [3b] 2b:Vg/58 3b:Vg/88 ss:Av/104 lf:Fr/53 cf:Pr/53 OF:Av
+ Simon              [2b] 2b:Pr/197 lf:Fr/94 OF:Av
+ Simpson,J          [mr] p:Fr/80
+ Soriano,G          [mr] p:Vg/76
+ Stowers            [lf] lf:Av/37 cf:Fr/37 rf:Av/37 OF:Vg
+ Tarnok             [mr] p:Vg/95
+ Tinoco             [mr] p:Av/87
+ Veneziano          [mr] p:Av/132
+ Wagaman            [1b] 1b:Av/211 3b:Fr/99 lf:Av/76 rf:Av/76 OF:Vg
+ Weathers           [sp] p:Av/74
+ Wiemer             [rf] lf:Vg/70 rf:Vg/70 OF:Av
+ Winkler            [2b] 1b:Fr/99 2b:Fr/127 3b:Fr/99 ss:Fr/123
+ Zuber              [mr] p:Av/93
+
+## Milwaukee
+ Alexander,T        [mr] p:Av/135
+ Anderson,G         [mr] p:Av/155
+ Ashby              [mr] p:Av/122
+ Avans              [lf] lf:Fr/98 OF:Av
+ Bauers             [1b] 1b:Av/99 lf:Fr/231 rf:Fr/231 OF:Av
+ Berroa             [cf] cf:Vg/97 OF:Vg
+ Black,T            [1b] 1b:Av/132 lf:Av/100 OF:Av
+ Cameron,D          [rf] lf:Pr/84 rf:Pr/84 OF:Av
+ Capra              [3b] 2b:Vg/98 3b:Vg/100 ss:Av/98
+ Chourio            [cf] lf:Vg/58 cf:Av/58 rf:Vg/58 OF:Fr
+ Civale             [sp] p:Av/85
+ Collins            [lf] 2b:Fr/100 3b:Fr/100 lf:Av/237 rf:Av/237 OF:Av
+ Contreras,WJ       [c] c:Av/73 Cthr:Ex PB:2
+ Cortes,N           [sp] p:Av/95
+ Dunn,O             [3b] 1b:Av/100 3b:Av/138
+ Durbin             [3b] 2b:Av/120 3b:Av/57 ss:Fr/99
+ Fedde              [mr] p:Av/89
+ Frelick            [rf] cf:Av/83 rf:Vg/83 OF:Fr
+ Gasser             [sp] p:Av/170
+ Haase              [c] c:Vg/94 Cthr:Av PB:3
+ Hall               [mr] p:Av/74
+ Henderson,L        [sp] p:Fr/100
+ Hoskins            [1b] 1b:Av/149
+ Hudson             [mr] p:Av/93
+ Jansen,D           [c] c:Fr/70 Cthr:Av PB:1
+ Koenig             [mr] p:Fr/164
+ Lockridge          [rf] lf:Av/76 cf:Av/76 rf:Av/76 OF:Vg
+ McGee              [mr] p:Vg/90
+ Mears              [mr] p:Av/62
+ Megill,Tr          [cl] p:Av/69
+ Miller,S           [mr] p:Av/94
+ Misiorowski        [sp] p:Pr/228
+ Mitchell           [cf] cf:Vg/64 OF:Av
+ Monasterio         [ss] 1b:Av/96 2b:Av/86 3b:Av/90 ss:Fr/83 lf:Av/100 OF:Fr
+ Myers,T            [mr] p:Av/149
+ Ortiz,J            [ss] ss:Vg/75
+ Patrick            [sp] p:Av/91
+ Payamps            [mr] p:Av/84
+ Peguero,E          [mr] p:Av/95
+ Peralta,F          [sp] p:Av/0
+ Perkins,B          [cf] cf:Vg/80 OF:Vg
+ Priester           [sp] p:Av/67
+ Quintana           [sp] p:Av/76
+ Rodriguez,C        [mr] p:Fr/100
+ Rodriguez,El       [mr] p:Av/169
+ Seigler            [3b] 3b:Av/112
+ Thomas,Con         [mr] p:Av/100
+ Turang             [2b] 2b:Vg/94 ss:Av/133
+ Uribe              [mr] p:Vg/111
+ Vaughn             [1b] 1b:Fr/159
+ Woodruff           [sp] p:Av/57
+ Yelich             [dh] lf:Av/130 OF:Av
+ Yoho               [mr] p:Av/100
+ Zastryzny          [mr] p:Av/85
+ Zimmermann         [sp] p:Av/96
+
+## Minnesota
+ Abel               [sp] p:Av/91
+ Adams,T            [mr] p:Ex/78
+ Alcala             [mr] p:Vg/137
+ Bader              [lf] lf:Vg/40 cf:Vg/40 rf:Vg/40 OF:Av
+ Blewett            [mr] p:Av/100
+ Bradley            [sp] p:Av/79
+ Bride              [3b] 1b:Vg/96 2b:Av/99 3b:Av/74
+ Buxton             [cf] cf:Av/59 OF:Fr
+ Cabrera,G          [mr] p:Fr/90
+ Castro,W           [lf] 2b:Fr/55 3b:Fr/179 ss:Pr/138 lf:Av/180 cf:Fr/180 rf:Av/180 OF:Av
+ Clemens            [1b] 1b:Ex/20 2b:Av/94 lf:Av/77 rf:Av/77 OF:Av
+ Correa             [ss] ss:Av/124
+ Coulombe           [mr] p:Av/79
+ Davis,N            [mr] p:Fr/100
+ Dobnak             [mr] p:Av/96
+ Duran,Jh           [cl] p:Av/67
+ Festa,D            [sp] p:Av/64
+ Fitzgerald,R       [ss] 1b:Av/99 2b:Av/90 3b:Av/136 ss:Fr/90
+ France,T           [1b] 1b:Av/25
+ Funderburk         [mr] p:Vg/73
+ Gasper             [c] c:Av/136 1b:Fr/96 2b:Pr/119 lf:Pr/99 OF:Fr Cthr:Pr PB:2
+ Hatch              [mr] p:Av/78
+ Jax                [mr] p:Av/169
+ Jeffers            [c] c:Av/101 Cthr:Av PB:2
+ Julien             [2b] 1b:Av/151 2b:Pr/119
+ Keaschall          [2b] 2b:Av/187
+ Keirsey            [rf] lf:Av/50 cf:Fr/50 rf:Av/50 OF:Av
+ Kriske             [mr] p:Vg/92
+ Larnach            [dh] lf:Av/12 rf:Av/12 OF:Fr
+ Laweryson          [mr] p:Av/95
+ Lee,B              [ss] 2b:Av/170 3b:Av/43 ss:Fr/110
+ Lewis              [3b] 3b:Av/93
+ Lopez,P            [sp] p:Av/261
+ Martin,A           [lf] 2b:Fr/130 lf:Fr/32 cf:Pr/32 OF:Pr
+ Matthews,Z         [sp] p:Vg/112
+ McCaughan          [mr] p:Av/100
+ McCusker           [rf] rf:Av/90 OF:Av
+ Miranda            [3b] 3b:Fr/106
+ Misiewicz          [mr] p:Av/97
+ Ober               [sp] p:Av/2
+ Ohl                [mr] p:Av/80
+ Outman             [cf] lf:Av/114 cf:Av/114 rf:Av/114 OF:Av
+ Paddack            [sp] p:Av/80
+ Pereda             [c] c:Av/191 Cthr:Av PB:3
+ Ramirez,E          [mr] p:Av/93
+ Roden              [lf] lf:Av/83 cf:Fr/83 rf:Av/83 OF:Vg
+ Ryan               [sp] p:Av/140
+ Sands              [mr] p:Av/119
+ Stewart,B          [mr] p:Av/166
+ Tonkin             [mr] p:Av/84
+ Topa               [mr] p:Av/207
+ Urena              [sp] p:Av/165
+ Varland            [mr] p:Vg/107
+ Vazquez,C          [c] c:Fr/26 Cthr:Av PB:1
+ Wallner            [rf] rf:Fr/169 OF:Av
+ Wentz              [mr] p:Av/95
+ Woods Richardso    [sp] p:Fr/219
+
+## New York (A)
+ Bednar             [cl] p:Av/84
+ Beeter             [mr] p:Av/100
+ Bellinger          [lf] 1b:Av/95 lf:Vg/82 cf:Av/82 rf:Vg/82 OF:Ex
+ Bird               [mr] p:Av/100
+ Blackburn          [mr] p:Av/90
+ Brubaker           [mr] p:Av/89
+ Caballero          [ss] 2b:Vg/124 3b:Vg/117 ss:Vg/96 lf:Av/159 rf:Av/159 OF:Vg
+ Cabrera,O          [3b] 1b:Av/99 3b:Av/144
+ Carrasco           [sp] p:Av/79
+ Chisholm           [2b] 2b:Vg/193 3b:Vg/157
+ Cruz,F             [mr] p:Av/68
+ De Los Santos,Y    [mr] p:Vg/76
+ Dominguez,J        [lf] lf:Fr/92 OF:Pr
+ Doval              [mr] p:Fr/169
+ Effross            [mr] p:Av/93
+ Escarra            [c] c:Fr/136 1b:Pr/98 3b:Pr/100 Cthr:Fr PB:1
+ Fried              [sp] p:Ex/148
+ Garcia,Ri          [mr] p:Av/100
+ Gil                [sp] p:Fr/300
+ Goldschmidt        [1b] 1b:Av/93
+ Gomez              [mr] p:Av/93
+ Grisham            [cf] cf:Fr/62 OF:Fr
+ Hamilton,I         [mr] p:Av/73
+ Hartlieb           [mr] p:Av/100
+ Headrick           [mr] p:Vg/85
+ Hill,T             [mr] p:Vg/55
+ Judge              [rf] rf:Av/42 OF:Ex
+ LeMahieu           [2b] 2b:Fr/35
+ Leiter,M           [mr] p:Fr/194
+ Loaisiga           [mr] p:Ex/80
+ Matzek             [mr] p:Av/100
+ McMahon            [3b] 3b:Vg/82
+ Ottavino           [mr] p:Fr/100
+ Peraza             [3b] 2b:Av/111 3b:Vg/87 ss:Av/108
+ Reyes              [2b] 2b:Pr/94 3b:Pr/125 lf:Fr/95 rf:Fr/95 OF:Av
+ Rice               [dh] c:Pr/111 1b:Fr/138 Cthr:Av PB:8
+ Rodon              [sp] p:Av/0
+ Rosario,A          [3b] 2b:Pr/99 3b:Pr/90 rf:Fr/97 OF:Fr
+ Sandridge          [mr] p:Pr/100
+ Schlittler         [sp] p:Av/51
+ Schmidt            [sp] p:Vg/48
+ Slater             [lf] lf:Av/90 rf:Av/90 OF:Ex
+ Stanton            [dh] lf:Pr/156 rf:Pr/156 OF:Pr
+ Stroman            [sp] p:Av/74
+ Vivas              [2b] 2b:Fr/80 3b:Fr/85
+ Volpe              [ss] ss:Av/154
+ Warren,W           [sp] p:Av/122
+ Weaver             [mr] p:Av/127
+ Wells,A            [c] c:Av/42 Cthr:Av PB:2
+ Williams,D         [cl] p:Av/59
+ Winans             [mr] p:Av/94
+ Yarbrough          [mr] p:Vg/57
+
+## New York (N)
+ Acuna,L            [2b] 2b:Vg/71 3b:Vg/98 ss:Av/93 cf:Av/99 OF:Fr
+ Adcock             [mr] p:Av/100
+ Alonso             [1b] 1b:Fr/131
+ Alvarez,F          [c] c:Av/171 Cthr:Av PB:5
+ Azocar             [lf] lf:Av/90 cf:Fr/90 rf:Av/90 OF:Vg
+ Baty               [3b] 2b:Av/78 3b:Av/87
+ Blackburn          [sp] p:Av/84
+ Brazoban           [mr] p:Av/58
+ Butto              [mr] p:Av/69
+ Cabrera,G          [mr] p:Fr/95
+ Canning            [sp] p:Av/49
+ Carrillo           [mr] p:Av/100
+ Castillo,J         [mr] p:Av/140
+ Devenski           [mr] p:Ex/89
+ Diaz,Ed            [cl] p:Av/56
+ Garcia,Ri          [mr] p:Av/100
+ Garrett            [mr] p:Av/174
+ Garza              [mr] p:Av/100
+ Hagenman           [mr] p:Av/84
+ Hamel              [mr] p:Av/100
+ Helsley            [mr] p:Av/87
+ Herget,K           [mr] p:Fr/92
+ Holmes,C           [sp] p:Av/58
+ Jankowski          [rf] lf:Ex/93 rf:Ex/93 OF:Fr
+ Kranick            [mr] p:Av/75
+ Lindor             [ss] ss:Av/90
+ Lovelady           [mr] p:Av/93
+ Manaea             [sp] p:Av/60
+ Marte,S            [dh] lf:Pr/87 rf:Pr/87 OF:Av
+ Mauricio           [3b] 2b:Vg/140 3b:Vg/88 ss:Av/96
+ McLean             [sp] p:Vg/68
+ McNeil             [2b] 1b:Fr/100 2b:Av/107 lf:Av/108 cf:Fr/108 rf:Av/108 OF:Pr
+ Megill,Ty          [sp] p:Av/182
+ Minter             [mr] p:Vg/93
+ Montas             [sp] p:Av/74
+ Mullins            [cf] cf:Av/38 OF:Pr
+ Nimmo              [lf] lf:Av/32 cf:Av/32 OF:Av
+ Nunez,De           [mr] p:Av/100
+ Peterson           [sp] p:Av/0
+ Pintaro            [mr] p:Av/100
+ Poche              [mr] p:Av/100
+ Pop                [mr] p:Av/100
+ Raley,B            [mr] p:Fr/83
+ Rogers,Ty          [mr] p:Av/82
+ Senga              [sp] p:Av/130
+ Senger             [c] c:Ex/113 Cthr:Av PB:3
+ Siri               [cf] cf:Vg/81 OF:Av
+ Soto,G             [mr] p:Av/147
+ Soto,J             [rf] rf:Fr/33 OF:Av
+ Sproat             [sp] p:Av/131
+ Stanek             [mr] p:Av/63
+ Taylor,Ty          [cf] lf:Ex/66 cf:Vg/66 rf:Ex/66 OF:Vg
+ Tidwell            [sp] p:Av/90
+ Tong               [sp] p:Fr/169
+ Torrens            [c] c:Av/105 Cthr:Ex PB:3
+ Urena              [cl] p:Av/100
+ Vientos            [3b] 1b:Av/95 3b:Pr/138
+ Waddell            [mr] p:Av/79
+ Warren,A           [mr] p:Av/94
+ Winker             [dh] lf:Pr/99 OF:Av
+ Young,D            [mr] p:Fr/100
+ Young,Jar          [dh] lf:Av/99 OF:Av
+ Zuber              [mr] p:Av/99
+
+## Philadelphia
+ Abel               [sp] p:Av/83
+ Alvarado,J         [mr] p:Pr/83
+ Bader              [cf] cf:Vg/202 OF:Av
+ Banks              [mr] p:Av/128
+ Bohm               [3b] 1b:Av/77 3b:Av/51
+ Buehler            [sp] p:Av/91
+ Castellanos        [rf] rf:Fr/0 OF:Av
+ Clemens            [lf] 2b:Av/100 lf:Av/100 OF:Av
+ Duran,Jh           [cl] p:Av/86
+ Harper             [1b] 1b:Vg/34
+ Hernandez,C        [mr] p:Av/195
+ Hoffman,N          [mr] p:Av/100
+ Johnson,S          [mr] p:Av/174
+ Kemp               [3b] 1b:Av/106 2b:Pr/138 3b:Pr/158 lf:Av/87 OF:Av
+ Kennedy            [1b] 1b:Av/97 3b:Av/99
+ Kepler             [lf] lf:Av/40 cf:Av/40 rf:Av/40 OF:Fr
+ Kerkering          [mr] p:Vg/60
+ Lazar              [mr] p:Fr/72
+ Luzardo            [sp] p:Av/189
+ Marchan            [c] c:Fr/101 Cthr:Av PB:3
+ Marsh              [cf] lf:Av/139 cf:Fr/139 rf:Av/139 OF:Vg
+ Mayza              [mr] p:Av/95
+ Mercado            [mr] p:Av/100
+ Nola,Aa            [sp] p:Av/37
+ Rangel             [mr] p:Av/93
+ Realmuto           [c] c:Fr/69 Cthr:Vg PB:1
+ Robert,D           [mr] p:Fr/100
+ Robertson,D        [mr] p:Av/88
+ Rojas,Joh          [cf] cf:Vg/139 OF:Ex
+ Romano             [mr] p:Av/72
+ Ross               [mr] p:Fr/66
+ Ruiz,J             [mr] p:Av/90
+ Sanchez,C          [sp] p:Av/59
+ Schwarber          [dh] lf:Pr/153 OF:Fr
+ Sosa,E             [3b] 2b:Vg/79 3b:Av/86 ss:Vg/99 lf:Av/98 OF:Av
+ Stevenson          [cf] cf:Fr/97 OF:Av
+ Stott              [2b] 2b:Vg/37 ss:Av/97
+ Strahm             [mr] p:Av/194
+ Stubbs,G           [c] c:Av/99 Cthr:Av PB:4
+ Suarez,Ra          [sp] p:Vg/135
+ Trivino            [mr] p:Av/94
+ Turner,T           [ss] ss:Av/66
+ Walker,T           [sp] p:Av/68
+ Walton             [2b] 2b:Fr/96
+ Wheeler            [sp] p:Av/98
+ Wilson,We          [lf] 1b:Fr/134 2b:Pr/84 lf:Fr/63 OF:Av
+ de Geus            [mr] p:Av/99
+
+## Pittsburgh
+ Ashcraft,B         [mr] p:Vg/54
+ Bae                [lf] lf:Av/88 cf:Av/88 rf:Av/88 OF:Fr
+ Barco              [mr] p:Av/100
+ Bart               [c] c:Av/72 Cthr:Av PB:3
+ Bednar             [cl] p:Av/75
+ Borucki            [mr] p:Vg/80
+ Burrows            [sp] p:Av/203
+ Cabrera,G          [mr] p:Fr/100
+ Canario            [lf] lf:Vg/114 cf:Av/114 rf:Vg/114 OF:Vg
+ Chandler           [sp] p:Vg/79
+ Cheng              [ss] 2b:Av/99 ss:Av/97
+ Cook               [cf] cf:Vg/98 rf:Vg/98 OF:Vg
+ Cruz,On            [cf] cf:Fr/292 OF:Ex
+ Darrell-Hicks      [mr] p:Av/100
+ Davis,H            [c] c:Fr/61 Cthr:Vg PB:1
+ Devanney           [3b] 3b:Av/123
+ Falter             [sp] p:Av/24
+ Ferguson,C         [mr] p:Av/71
+ Flores,R           [1b] c:Av/98 1b:Fr/93 Cthr:Av PB:4
+ Frazier            [2b] 2b:Av/41 lf:Av/144 rf:Av/144 OF:Fr
+ Gonzales,N         [2b] 2b:Av/163 ss:Fr/111
+ Gorski             [1b] 1b:Fr/116 lf:Fr/98 cf:Fr/98 OF:Av
+ Harrington         [cl] p:Av/94
+ Hayes              [3b] 3b:Ex/39
+ Heaney             [sp] p:Av/20
+ Holderman          [mr] p:Fr/100
+ Horwitz            [1b] 1b:Av/96 2b:Pr/100
+ Keller,M           [sp] p:Av/0
+ Kiner-Falefa       [ss] 3b:Vg/95 ss:Av/75
+ Lawrence,J         [mr] p:Av/88
+ Mattson            [mr] p:Ex/130
+ Mayza              [mr] p:Av/94
+ McCutchen          [dh] lf:Fr/88 rf:Fr/88 OF:Pr
+ Mlodzinski         [mr] p:Av/34
+ Moreta             [mr] p:Av/89
+ Nicolas            [mr] p:Av/75
+ Oviedo             [sp] p:Av/73
+ Peguero,L          [ss] 1b:Av/89 2b:Fr/91 ss:Fr/80
+ Pham               [lf] lf:Av/158 rf:Av/158 OF:Av
+ Rainey             [mr] p:Av/95
+ Ramirez,Y          [mr] p:Av/150
+ Reynolds,B         [rf] rf:Av/68 OF:Pr
+ Rodriguez,En       [1b] c:Vg/150 1b:Fr/152 Cthr:Av PB:3
+ Sanders            [mr] p:Av/100
+ Santana,D          [mr] p:Av/168
+ Shugart            [mr] p:Fr/70
+ Simon              [rf] lf:Fr/203 rf:Fr/203 OF:Av
+ Sisk               [mr] p:Av/92
+ Skenes             [sp] p:Fr/170
+ Solak              [1b] 1b:Av/96 lf:Pr/99 OF:Fr
+ Stratton,H         [mr] p:Av/100
+ Sullivan           [c] c:Vg/95 Cthr:Av PB:4
+ Suwinski           [cf] lf:Av/82 cf:Av/82 rf:Av/82 OF:Av
+ Triolo             [ss] 1b:Ex/77 2b:Vg/84 3b:Vg/88 ss:Av/129
+ Valdez,E           [1b] 1b:Av/62 2b:Fr/124
+ Wentz              [mr] p:Av/83
+ Yorke              [2b] 1b:Av/94 2b:Av/78 3b:Fr/99 rf:Av/95 OF:Av
+
+## Sacramento
+ Alexander,C        [1b] 1b:Fr/97 3b:Fr/97 lf:Av/99 rf:Av/99 OF:Av
+ Alexander,J        [mr] p:Av/96
+ Alvarado,E         [mr] p:Av/256
+ Andujar            [3b] 3b:Pr/83 lf:Pr/55 rf:Pr/55 OF:Av
+ Avans              [lf] lf:Fr/93 cf:Fr/93 rf:Fr/93 OF:Av
+ Barnett            [sp] p:Vg/85
+ Basso              [mr] p:Fr/92
+ Bido               [mr] p:Av/162
+ Bleday             [cf] lf:Fr/159 cf:Pr/159 rf:Fr/159 OF:Ex
+ Bowden             [mr] p:Av/100
+ Brown,S            [lf] lf:Fr/77 cf:Pr/77 rf:Fr/77 OF:Fr
+ Butler             [rf] cf:Av/46 rf:Vg/46 OF:Fr
+ Clarke,D           [cf] cf:Vg/133 OF:Pr
+ Cortes,C           [rf] lf:Av/145 rf:Av/145 OF:Pr
+ Davidson           [1b] 1b:Av/95 2b:Fr/98 3b:Fr/110
+ Duran,C            [mr] p:Av/100
+ Estes              [sp] p:Av/100
+ Ferguson,T         [mr] p:Fr/300
+ Gelof              [2b] 2b:Av/80
+ Ginn               [sp] p:Fr/40
+ Harris,B           [3b] 1b:Vg/97 3b:Vg/80
+ Harris,Ho          [mr] p:Av/177
+ Hernaiz            [ss] 2b:Av/112 3b:Av/106 ss:Fr/86
+ Hoglund            [sp] p:Av/78
+ Holman             [mr] p:Pr/235
+ Kelly,Mi           [mr] p:Fr/177
+ Krook              [mr] p:Av/98
+ Kurtz              [1b] 1b:Av/212
+ Langeliers         [c] c:Av/124 Cthr:Fr PB:4
+ Leclerc            [mr] p:Av/94
+ Lopez,Ja           [sp] p:Av/280
+ MacIver            [c] c:Av/131 Cthr:Vg PB:3
+ Maldonado,A        [mr] p:Vg/100
+ McFarland          [mr] p:Av/90
+ McGough            [mr] p:Fr/94
+ Miller,M           [cl] p:Av/74
+ Morales            [sp] p:Av/68
+ Muncy,MP           [3b] 2b:Av/181 3b:Av/163 ss:Fr/89
+ Murdock            [mr] p:Vg/89
+ Newcomb            [mr] p:Av/66
+ Nunez,E            [mr] p:Av/100
+ Otanez             [mr] p:Fr/100
+ Perdomo,A          [mr] p:Av/100
+ Pereda             [c] c:Av/109 Cthr:Av PB:3
+ Perkins,J          [cl] p:Av/74
+ Rooker             [dh] lf:Pr/136 rf:Pr/136 OF:Fr
+ Schuemann          [2b] 2b:Av/84 3b:Vg/76 ss:Av/122 lf:Fr/90 cf:Pr/90 rf:Fr/90 OF:Av
+ Sears              [sp] p:Av/26
+ Severino           [sp] p:Vg/0
+ Soderstrom         [lf] 1b:Fr/141 lf:Vg/69 OF:Av
+ Spence             [mr] p:Av/144
+ Springs            [sp] p:Av/130
+ Sterner            [mr] p:Ex/57
+ Thomas,Col         [rf] lf:Fr/46 cf:Fr/46 rf:Fr/46 OF:Av
+ Urias,L            [2b] 2b:Fr/94 3b:Fr/123
+ Urshela            [3b] 1b:Av/97 3b:Av/81
+ Wilson,Ja          [ss] ss:Fr/87
+ Wynns              [c] c:Fr/102 Cthr:Av PB:3
+
+## San Diego
+ Adam               [mr] p:Vg/56
+ Arraez             [1b] 1b:Av/22 2b:Pr/84
+ Bergert            [sp] p:Av/76
+ Bogaerts           [ss] ss:Av/82
+ Brooks             [dh] lf:Av/99 OF:Av
+ Cease              [sp] p:Av/75
+ Cortes,N           [sp] p:Av/82
+ Cronenworth        [2b] 1b:Av/83 2b:Fr/160 ss:Pr/84
+ Cruz,Om            [mr] p:Av/100
+ Darvish            [sp] p:Av/115
+ Diaz,El            [c] c:Vg/164 Cthr:Vg PB:1
+ Estrada,J          [mr] p:Fr/289
+ Fermin,F           [c] c:Vg/105 Cthr:Ex PB:3
+ Gillaspie          [mr] p:Av/95
+ Gonzalez,O         [lf] lf:Fr/151 rf:Fr/151 OF:Av
+ Gurriel,Y          [dh] 1b:Av/93
+ Hart               [mr] p:Vg/71
+ Heyward            [lf] lf:Vg/57 cf:Av/57 rf:Vg/57 OF:Av
+ Hoeing             [mr] p:Vg/95
+ Iglesias,J         [2b] 2b:Fr/64 3b:Av/106 ss:Fr/101 lf:Fr/100 OF:Pr
+ Jacob              [mr] p:Vg/78
+ Joe                [1b] 1b:Av/99 lf:Av/98 cf:Fr/98 OF:Av
+ Johnson,B          [lf] lf:Vg/56 cf:Vg/56 rf:Vg/56 OF:Av
+ King,M             [sp] p:Av/51
+ Kolek              [sp] p:Fr/162
+ Laureano           [lf] lf:Fr/95 cf:Fr/95 rf:Fr/95 OF:Vg
+ Lockridge          [lf] lf:Av/179 cf:Av/179 rf:Av/179 OF:Vg
+ Machado            [3b] 3b:Av/121
+ Maldonado,M        [c] c:Av/72 Cthr:Fr PB:7
+ Marinaccio         [mr] p:Av/93
+ Matsui             [mr] p:Av/58
+ McCoy              [ss] 2b:Vg/96 ss:Av/107
+ Merrill            [cf] cf:Av/29 OF:Av
+ Miller,M           [mr] p:Av/84
+ Morejon            [mr] p:Av/158
+ Morgan,D           [mr] p:Vg/68
+ Nunez,E            [mr] p:Av/100
+ O'Hearn            [1b] 1b:Vg/139 rf:Fr/96 OF:Fr
+ Ornelas,T          [lf] lf:Av/93 OF:Av
+ Peralta,W          [mr] p:Fr/52
+ Pivetta            [sp] p:Av/89
+ Reynolds,S         [mr] p:Ex/82
+ Rodriguez,B        [mr] p:Av/95
+ Sears              [sp] p:Av/84
+ Sheets             [lf] 1b:Av/121 lf:Fr/87 OF:Av
+ Suarez,Ro          [cl] p:Av/54
+ Tatis              [rf] rf:Ex/71 OF:Ex
+ Vasquez            [sp] p:Av/94
+ Wade,T             [cf] 2b:Pr/91 3b:Pr/98 ss:Pr/99 lf:Fr/52 cf:Pr/52 rf:Fr/52 OF:Fr
+ Wagner             [2b] 2b:Av/98
+ Waldron            [sp] p:Av/97
+
+## San Francisco
+ Adames             [ss] ss:Av/109
+ Alcantara,Se       [3b] 3b:Fr/115
+ Alexander,S        [mr] p:Av/100
+ Bailey             [c] c:Ex/94 Cthr:Vg PB:3
+ Beck,T             [mr] p:Av/62
+ Birdsong           [mr] p:Av/163
+ Bivens             [mr] p:Vg/46
+ Black,M            [mr] p:Av/100
+ Brubaker           [mr] p:Av/92
+ Butto              [mr] p:Av/130
+ Chapman,M          [3b] 3b:Vg/108
+ Devers             [dh] 1b:Av/124 3b:Fr/98
+ Doval              [cl] p:Fr/69
+ Eldridge           [dh] 1b:Av/93
+ Encarnacion        [rf] 1b:Av/129 lf:Ex/79 rf:Ex/79 OF:Fr
+ Fitzgerald,T       [2b] 2b:Av/93 rf:Vg/96 OF:Av
+ Flores,W           [dh] 1b:Av/58 3b:Fr/98
+ Gage               [mr] p:Fr/138
+ Gilbert,D          [rf] lf:Av/46 cf:Fr/46 rf:Av/46 OF:Av
+ Harrison           [sp] p:Av/84
+ Hicks,J            [sp] p:Av/68
+ Hjelle             [mr] p:Av/90
+ Huff               [c] c:Pr/70 Cthr:Pr PB:3
+ Johnson,D          [cf] lf:Vg/87 cf:Vg/87 rf:Vg/87 OF:Pr
+ Knizner            [c] c:Vg/150 Cthr:Av PB:1
+ Koss               [2b] 2b:Vg/105 3b:Vg/123 ss:Av/118
+ Lee,J              [cf] cf:Fr/78 OF:Av
+ Lucchesi           [mr] p:Av/74
+ Matos              [rf] lf:Pr/300 cf:Pr/300 rf:Pr/300 OF:Fr
+ McCray             [rf] lf:Fr/263 rf:Fr/263 OF:Av
+ McDonald           [sp] p:Vg/90
+ Miller,E           [mr] p:Av/80
+ Peguero,J          [mr] p:Fr/85
+ Porter             [c] c:Av/96 Cthr:Av PB:4
+ Ramos,H            [lf] lf:Av/256 OF:Vg
+ Ray                [sp] p:Fr/0
+ Rodriguez,R        [mr] p:Av/66
+ Rogers,Ty          [mr] p:Av/67
+ Roupp              [sp] p:Av/29
+ Schmitt            [2b] 1b:Av/110 2b:Fr/117 3b:Fr/152 ss:Pr/98
+ Seymour,C          [mr] p:Av/76
+ Smith,Do           [1b] 1b:Av/51
+ Teng               [sp] p:Fr/177
+ Trivino            [mr] p:Av/92
+ Verlander          [sp] p:Av/98
+ Villar             [1b] 1b:Av/90
+ Wade,L             [1b] 1b:Av/165
+ Walker,R           [mr] p:Av/59
+ Webb,L             [sp] p:Vg/47
+ Whisenhunt         [sp] p:Av/84
+ Winn,K             [mr] p:Fr/93
+ Wisely             [2b] 2b:Vg/102 3b:Vg/112
+ Yastrzemski        [rf] rf:Av/54 OF:Av
+
+## Seattle
+ Arozarena          [lf] lf:Av/138 OF:Vg
+ Bazardo            [mr] p:Av/48
+ Bliss              [2b] 2b:Vg/80
+ Brash              [mr] p:Av/68
+ Burgos             [mr] p:Av/100
+ Canzone            [rf] rf:Av/73 OF:Fr
+ Castano            [mr] p:Av/100
+ Castillo,J         [mr] p:Av/100
+ Castillo,LF        [sp] p:Av/141
+ Castillo,LM        [sp] p:Fr/0
+ Crawford           [ss] ss:Av/95
+ Diaz,J             [mr] p:Av/100
+ Evans              [sp] p:Av/127
+ Ferguson,C         [mr] p:Av/85
+ Ford               [c] c:Vg/97 Cthr:Av PB:4
+ Garcia,B           [mr] p:Av/125
+ Garver             [c] c:Av/109 Cthr:Fr PB:1
+ Gilbert,L          [sp] p:Fr/119
+ Hahn               [mr] p:Vg/97
+ Hancock            [sp] p:Av/109
+ Jackson,L          [mr] p:Fr/92
+ Kirby              [sp] p:Av/16
+ Kowar              [mr] p:Fr/100
+ Lao                [mr] p:Av/98
+ Lawrence,C         [mr] p:Fr/90
+ Legumina           [mr] p:Av/67
+ Mastrobuoni        [3b] 1b:Av/98 2b:Av/115 3b:Fr/68 lf:Vg/77 rf:Vg/77 OF:Fr
+ Miller,Br          [sp] p:Av/40
+ Moore,D            [2b] 1b:Vg/136 2b:Av/118 3b:Vg/117 ss:Av/93 rf:Fr/146 OF:Av
+ Munoz,A            [cl] p:Fr/58
+ Naylor,J           [1b] 1b:Av/50
+ Polanco            [dh] 2b:Fr/43 3b:Fr/91
+ Pop                [mr] p:Av/96
+ Raleigh            [c] c:Av/52 Cthr:Av PB:0
+ Raley,L            [rf] 1b:Fr/134 lf:Av/134 cf:Fr/134 rf:Av/134 OF:Ex
+ Rivas              [2b] 2b:Av/89 3b:Av/99 ss:Fr/92 lf:Av/98 rf:Av/98 OF:Fr
+ Robles             [rf] cf:Fr/50 rf:Av/50 OF:Fr
+ Rodriguez,Ju       [cf] cf:Vg/77 OF:Av
+ Santos             [mr] p:Av/100
+ Saucedo            [mr] p:Vg/91
+ Snider             [mr] p:Av/197
+ Solano             [1b] 1b:Av/25 3b:Fr/100
+ Speier             [mr] p:Av/59
+ Suarez,E           [3b] 1b:Fr/127 3b:Fr/95
+ Taveras            [rf] cf:Av/188 rf:Av/188 OF:Av
+ Taylor,S           [rf] cf:Av/96 rf:Av/96 OF:Av
+ Taylor,Tr          [mr] p:Av/100
+ Tellez             [1b] 1b:Fr/133
+ Thomas,R           [rf] lf:Av/96 rf:Av/96 OF:Fr
+ Thornton           [mr] p:Av/72
+ Vargas,C           [mr] p:Av/120
+ Williamson         [3b] 3b:Av/41
+ Woo                [sp] p:Av/61
+ Young,C            [2b] 2b:Av/101
+
+## St. Louis
+ Alcala             [mr] p:Vg/90
+ Arenado            [3b] 3b:Vg/49
+ Baker,L            [dh] 1b:Fr/99
+ Barrero            [ss] 2b:Fr/98 ss:Pr/125 cf:Av/93 rf:Av/93 OF:Fr
+ Burleson           [1b] 1b:Av/157 lf:Fr/68 rf:Fr/68 OF:Fr
+ Church,N           [cf] lf:Vg/115 cf:Vg/115 rf:Vg/115 OF:Ex
+ Contreras,WE       [1b] 1b:Av/147
+ Crooks             [c] c:Fr/79 Cthr:Av PB:5
+ Donovan            [2b] 2b:Av/63 ss:Fr/92 lf:Av/70 OF:Av
+ Fedde              [sp] p:Av/95
+ Fermin,Jose        [2b] 2b:Av/81 3b:Av/96 lf:Fr/95 rf:Fr/95 OF:Av
+ Fernandez,R        [mr] p:Av/212
+ Gorman             [3b] 1b:Av/92 2b:Fr/84 3b:Fr/128
+ Graceffo           [mr] p:Fr/212
+ Granillo           [mr] p:Fr/86
+ Gray,S             [sp] p:Av/59
+ Hampson            [cf] 2b:Vg/100 3b:Vg/100 ss:Av/100 lf:Vg/85 cf:Vg/85 rf:Vg/85 OF:Fr
+ Helsley            [cl] p:Av/76
+ Herrera,I          [dh] c:Ex/112 lf:Pr/94 OF:Fr Cthr:Pr PB:4
+ King,J             [mr] p:Ex/68
+ Leahy              [mr] p:Av/113
+ Liberatore         [sp] p:Av/0
+ Maton,P            [mr] p:Av/199
+ Matz               [mr] p:Vg/63
+ McGreevy           [sp] p:Vg/82
+ Mikolas            [sp] p:Av/50
+ Munoz,Rod          [mr] p:Av/93
+ Nootbaar           [lf] lf:Av/37 cf:Av/37 rf:Av/37 OF:Av
+ O'Brien            [mr] p:Vg/68
+ Pages,P            [c] c:Av/88 1b:Pr/99 2b:Pr/99 Cthr:Av PB:4
+ Pallante           [sp] p:Av/174
+ Pozo               [c] c:Av/200 1b:Pr/97 Cthr:Pr PB:5
+ Prieto             [2b] 2b:Fr/156
+ Raquet             [mr] p:Av/100
+ Romero             [mr] p:Av/59
+ Roycroft           [mr] p:Fr/86
+ Saggese            [2b] 2b:Av/142 3b:Av/116 ss:Fr/76
+ Scott,V            [cf] lf:Ex/148 cf:Ex/148 rf:Ex/148 OF:Fr
+ Siani              [cf] cf:Ex/88 OF:Av
+ Svanson            [mr] p:Av/60
+ Veneziano          [mr] p:Av/100
+ Vilade             [rf] lf:Av/94 rf:Av/94 OF:Av
+ Walker,Jor         [rf] rf:Fr/159 OF:Av
+ Winn,M             [ss] ss:Vg/25
+
+## Tampa Bay
+ Acton              [mr] p:Av/100
+ Aranda             [1b] 1b:Av/117
+ Baker,B            [mr] p:Av/80
+ Baz                [sp] p:Av/89
+ Bigge              [mr] p:Vg/155
+ Boyle              [sp] p:Fr/178
+ Bradley            [sp] p:Av/117
+ Caballero          [ss] 2b:Vg/182 3b:Vg/85 ss:Vg/105 lf:Av/59 cf:Av/59 rf:Av/59 OF:Vg
+ Caminero           [3b] 3b:Fr/152
+ Cleavinger         [mr] p:Av/59
+ Deluca             [cf] cf:Vg/72 OF:Fr
+ Diaz,Yan           [dh] 1b:Fr/38
+ Englert            [mr] p:Vg/70
+ Fairbanks          [cl] p:Av/158
+ Feduccia           [c] c:Av/53 Cthr:Fr PB:1
+ Fortes             [c] c:Vg/125 Cthr:Fr PB:4
+ Gerber             [mr] p:Av/97
+ Gervase            [mr] p:Av/100
+ Gray,T             [2b] 1b:Av/151 2b:Fr/112 3b:Fr/130 ss:Pr/88
+ Houser             [sp] p:Vg/62
+ Jankowski          [rf] lf:Ex/85 rf:Ex/85 OF:Fr
+ Jansen,D           [c] c:Fr/146 Cthr:Av PB:1
+ Jax                [mr] p:Av/87
+ Kelly,K            [mr] p:Av/74
+ Kim,Ha             [ss] 2b:Vg/91 ss:Av/69
+ Littell            [sp] p:Av/98
+ Lowe,B             [2b] 1b:Av/96 2b:Fr/103
+ Lowe,J             [rf] rf:Av/45 OF:Av
+ Mangum             [lf] lf:Vg/0 cf:Av/0 rf:Vg/0 OF:Pr
+ Mead               [2b] 1b:Av/78 2b:Fr/110 3b:Fr/89
+ Misner             [cf] lf:Vg/169 cf:Av/169 rf:Vg/169 OF:Fr
+ Montes             [2b] 2b:Fr/97 3b:Fr/99 lf:Fr/99 OF:Fr
+ Montgomery,M       [mr] p:Fr/136
+ Morel              [lf] 2b:Pr/100 lf:Pr/234 rf:Pr/234 OF:Fr
+ Orze               [mr] p:Av/72
+ Palacios,R         [2b] 1b:Av/147 2b:Av/114 lf:Fr/93 rf:Fr/93 OF:Av
+ Pepiot             [sp] p:Av/0
+ Pereira            [cf] cf:Fr/67 rf:Av/67 OF:Av
+ Peters             [cf] cf:Av/94 OF:Av
+ Rasmussen          [sp] p:Av/0
+ Rock               [mr] p:Av/100
+ Rodriguez,M        [mr] p:Vg/80
+ Rortvedt           [c] c:Fr/96 Cthr:Fr PB:1
+ Scholtens          [mr] p:Av/94
+ Seabold            [mr] p:Vg/96
+ Seymour,B          [1b] 1b:Av/100
+ Seymour,I          [mr] p:Vg/145
+ Simpson,C          [cf] lf:Av/42 cf:Fr/42 rf:Av/42 OF:Av
+ Sulser             [mr] p:Fr/85
+ Thaiss             [c] c:Av/62 1b:Pr/100 Cthr:Fr PB:2
+ Uceta              [mr] p:Vg/49
+ Walls              [ss] 2b:Ex/94 ss:Vg/57
+ Whitley            [mr] p:Av/100
+ Wilcox             [mr] p:Fr/100
+ Williams,C         [ss] ss:Av/145
+ van Belle          [mr] p:Av/100
+
+## Texas
+ Ahmed              [ss] ss:Vg/94
+ Armstrong          [mr] p:Av/51
+ Barnhart           [c] c:Pr/92 Cthr:Av PB:4
+ Boushley           [mr] p:Av/71
+ Burger             [1b] 1b:Av/124
+ Carter             [cf] cf:Vg/8 OF:Fr
+ Church,M           [mr] p:Av/100
+ Corbin             [sp] p:Av/82
+ Corniell           [mr] p:Pr/99
+ Coulombe           [mr] p:Av/92
+ Crim               [1b] 1b:Av/95
+ Curvelo            [mr] p:Ex/87
+ Dunning            [cl] p:Av/100
+ Duran,E            [ss] 1b:Vg/72 2b:Av/83 3b:Vg/121 ss:Av/91 lf:Av/89 rf:Av/89 OF:Vg
+ Edwards,C          [mr] p:Av/100
+ Eovaldi            [sp] p:Av/63
+ Foscue             [1b] 1b:Av/95
+ Freeman,Co         [2b] 2b:Av/127 3b:Av/93 lf:Av/93 rf:Av/93 OF:Av
+ Garabito           [mr] p:Av/100
+ Garcia,Ad          [rf] rf:Av/61 OF:Ex
+ Garcia,Ro          [mr] p:Fr/250
+ Gray,J             [mr] p:Av/91
+ Haggerty           [lf] 2b:Fr/98 lf:Fr/46 cf:Pr/46 rf:Fr/46 OF:Av
+ Harris,D           [lf] lf:Vg/127 cf:Vg/127 rf:Vg/127 OF:Av
+ Heim               [c] c:Vg/55 Cthr:Av PB:2
+ Helman             [cf] cf:Av/48 OF:Fr
+ Heuer              [mr] p:Av/99
+ Higashioka         [c] c:Av/72 Cthr:Fr PB:3
+ Jackson,L          [mr] p:Fr/127
+ Jung,Jo            [3b] 3b:Av/61
+ Kelly,Me           [sp] p:Av/119
+ Langford           [lf] lf:Ex/55 cf:Vg/55 OF:Vg
+ Latz               [mr] p:Fr/43
+ Leiter,J           [sp] p:Av/85
+ Mahle              [sp] p:Vg/42
+ Martin,Ch          [mr] p:Vg/72
+ Maton,P            [mr] p:Av/85
+ McKinney           [rf] lf:Av/92 rf:Av/92 OF:Av
+ Milner             [mr] p:Av/53
+ Moore,D            [2b] 1b:Vg/99 2b:Av/93 rf:Fr/97 OF:Av
+ Ornelas,J          [ss] 2b:Av/99 ss:Fr/97
+ Osuna              [lf] lf:Vg/22 cf:Av/22 rf:Vg/22 OF:Fr
+ Pederson           [dh] 1b:Av/96 rf:Fr/99 OF:Fr
+ Pillar             [cf] lf:Av/83 cf:Fr/83 rf:Av/83 OF:Av
+ Rocker             [sp] p:Vg/127
+ Seager             [ss] ss:Vg/49
+ Semien             [2b] 2b:Vg/26
+ Smith,J            [ss] 1b:Vg/96 2b:Av/96 3b:Av/71 ss:Fr/109 lf:Fr/75 cf:Pr/75 rf:Fr/75 OF:Av
+ Solano             [2b] 2b:Pr/98
+ Taveras            [cf] cf:Av/177 OF:Av
+ Tellez             [1b] 1b:Fr/49
+ Webb,J             [mr] p:Vg/56
+ Winn,C             [mr] p:Vg/72
+ deGrom             [sp] p:Vg/0
+
+## Toronto
+ Barger             [3b] 3b:Av/94 rf:Fr/227 OF:Ex
+ Barnes,J           [mr] p:Pr/95
+ Bassitt            [sp] p:Av/170
+ Berrios            [sp] p:Av/0
+ Bichette           [ss] ss:Fr/118
+ Bieber             [sp] p:Av/73
+ Borucki            [mr] p:Vg/100
+ Bruihl             [mr] p:Av/91
+ Burr               [mr] p:Av/100
+ Clase,J            [lf] lf:Av/49 cf:Av/49 rf:Av/49 OF:Fr
+ Clement            [3b] 1b:Ex/129 2b:Ex/121 3b:Vg/57 ss:Vg/106
+ Dominguez,S        [mr] p:Av/154
+ Estrada,L          [mr] p:Av/95
+ Fisher             [mr] p:Av/67
+ Fluharty           [mr] p:Fr/65
+ France,T           [1b] 1b:Av/149
+ Francis            [sp] p:Av/57
+ Garcia,Y           [mr] p:Av/223
+ Gausman            [sp] p:Av/0
+ Gimenez            [2b] 2b:Ex/38 ss:Vg/92
+ Green              [mr] p:Fr/71
+ Guerrero,V         [1b] 1b:Av/159
+ Heineman           [c] c:Vg/221 Cthr:Fr PB:0
+ Hoffman,J          [cl] p:Fr/232
+ Jimenez            [2b] 2b:Av/85 ss:Av/99
+ Kennedy            [3b] 2b:Av/100 3b:Av/98
+ Kiner-Falefa       [3b] 2b:Vg/95 3b:Vg/109 ss:Av/100
+ Kirk               [c] c:Av/129 Cthr:Vg PB:2
+ Lauer              [sp] p:Fr/300
+ Lawrence,C         [mr] p:Fr/100
+ Little,B           [mr] p:Vg/277
+ Loperfido          [lf] lf:Av/55 rf:Av/55 OF:Av
+ Lovelady           [mr] p:Av/100
+ Lucas              [sp] p:Av/84
+ Lukes              [rf] lf:Av/74 cf:Av/74 rf:Av/74 OF:Vg
+ Nance              [mr] p:Av/138
+ Pina               [mr] p:Av/100
+ Robertson,W        [lf] lf:Av/95 rf:Av/95 OF:Av
+ Roden              [lf] lf:Av/110 cf:Fr/110 rf:Av/110 OF:Vg
+ Rodriguez,Y        [mr] p:Vg/51
+ Sanchez,A          [c] c:Fr/90 Cthr:Av PB:3
+ Sandlin            [mr] p:Vg/89
+ Santander          [dh] lf:Av/64 rf:Av/64 OF:Av
+ Scherzer           [sp] p:Av/43
+ Schneider          [lf] 2b:Av/74 lf:Vg/164 OF:Fr
+ Schultz            [mr] p:Av/84
+ Springer           [dh] lf:Fr/102 cf:Fr/102 rf:Fr/102 OF:Fr
+ Stefanic           [2b] 2b:Fr/89
+ Straw              [cf] lf:Ex/45 cf:Vg/45 rf:Ex/45 OF:Fr
+ Swanson,E          [mr] p:Fr/96
+ Tate               [mr] p:Av/100
+ Turnbull           [mr] p:Fr/96
+ Urena              [mr] p:Av/92
+ Varland            [mr] p:Vg/84
+ Varsho             [cf] cf:Ex/57 OF:Av
+ Wagner             [3b] 1b:Av/85 3b:Av/115
+ Walker,Jos         [mr] p:Av/100
+ Yesavage           [sp] p:Av/91
+
+## Washington
+ Abrams             [ss] ss:Fr/159
+ Adams,R            [c] c:Vg/101 Cthr:Av PB:2
+ Alfaro             [c] c:Vg/82 Cthr:Vg PB:6
+ Alvarez,A          [sp] p:Fr/84
+ Beeter             [mr] p:Av/86
+ Bell               [dh] 1b:Fr/150
+ Brzykcy            [mr] p:Fr/100
+ Call               [rf] lf:Vg/3 cf:Av/3 rf:Vg/3 OF:Fr
+ Cavalli            [sp] p:Vg/68
+ Chafin             [mr] p:Av/87
+ Chaparro           [1b] 1b:Vg/70
+ Crews              [rf] cf:Av/300 rf:Vg/300 OF:Av
+ DeJong             [3b] 1b:Av/98 2b:Av/113 3b:Av/91 ss:Fr/86
+ Fernandez,J        [mr] p:Vg/100
+ Ferrer             [mr] p:Av/215
+ Finnegan           [cl] p:Av/74
+ Garcia,LA          [mr] p:Av/93
+ Garcia,LV          [2b] 1b:Av/97 2b:Fr/82
+ Gore               [sp] p:Av/0
+ Hassell            [cf] lf:Av/65 cf:Fr/65 rf:Av/65 OF:Vg
+ Henry,C            [mr] p:Av/300
+ House              [3b] 3b:Fr/107
+ Irvin              [sp] p:Vg/51
+ Lao                [mr] p:Av/95
+ Lara               [mr] p:Av/90
+ Lile               [rf] lf:Fr/55 rf:Fr/55 OF:Fr
+ Lipscomb           [3b] 3b:Av/98
+ Lopez,Jo           [mr] p:Av/84
+ Lord               [mr] p:Av/13
+ Loutos             [mr] p:Av/211
+ Lowe,N             [1b] 1b:Av/137
+ Millas             [c] c:Av/195 Cthr:Av PB:2
+ Nunez,N            [ss] 2b:Ex/82 ss:Ex/74 cf:Av/99 OF:Fr
+ Ogasawara          [mr] p:Vg/74
+ Parker             [sp] p:Av/300
+ Pilkington         [mr] p:Vg/81
+ Poche              [mr] p:Av/94
+ Poulin             [mr] p:Vg/137
+ Ribalta            [mr] p:Av/84
+ Rosario,A          [3b] 2b:Pr/128 3b:Pr/153
+ Ruiz,K             [c] c:Av/77 Cthr:Av PB:1
+ Rutledge           [mr] p:Av/51
+ Salazar,E          [mr] p:Av/81
+ Sims               [mr] p:Vg/145
+ Soroka             [sp] p:Av/46
+ Stubbs,CJ          [c] c:Vg/98 Cthr:Av PB:4
+ Tena               [3b] 2b:Pr/118 3b:Pr/129
+ Thompson,M         [mr] p:Av/100
+ Williams,T         [sp] p:Av/45
+ Wood               [lf] lf:Av/106 OF:Av
+ Young,Jac          [cf] cf:Ex/0 OF:Vg
