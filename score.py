@@ -11,16 +11,21 @@ trade.json: {"players": [ {...}, ... ]}. Per player:
   age                   age on April 1 of the sim year
   role                  "H" hitter | "P" pitcher
   pa | ip               playing time
-  war                   pitchers: WAR. hitters: either total_war, or off_war plus
-                        the defense/platoon fields below
-  off_war, pos, range, err, arm          hitter defense (pos lowercase, range Pr..Ex)
+  war                   pitchers: FanGraphs WAR (war.csv `war`)
+  base_war              hitters: war.csv `fg_war_ex_fld` (FanGraphs WAR minus real fielding);
+                        or pass total_war to skip the defense/platoon math
+  pos, range, err, arm  hitter DMB defense (pos lowercase, range Pr..Ex)
   bats, pa_vr, ops_vr, pa_vl, ops_vl     hitter platoon inputs
   premium               prospect premium $M (ML players), default 0
 """
 import json, sys
 
 PER_WAR = 2.0
-RANGE = {"Pr": -1, "Fr": 0, "Av": 1, "Vg": 2, "Ex": 3}
+# MWBL replacement level (24 x 26 = 624th-best MLB player, as a rate). Recompute each
+# offseason with tools/replacement.py (rate at which 312 hitters / 312 pitchers are above it).
+REPL_H_PER_600PA = 1.05
+REPL_P_PER_180IP = 1.48
+RANGE = {"Pr": -2, "Fr": -1, "Av": 0, "Vg": 1, "Ex": 2}  # centered: Av = average fielder
 ARM = {"Pr": -1, "Fr": -0.5, "Av": 0, "Vg": 0.5, "Ex": 1}
 ERR_W = {"c": .5, "1b": .4, "2b": .5, "3b": .8, "ss": .8, "lf": .2, "cf": .2, "rf": .2}
 F_DMB = {("L", "R"): .85, ("L", "L"): .40, ("R", "L"): .45, ("R", "R"): .80,
@@ -53,12 +58,20 @@ def platoon(p):
     return max(-1.0, min(3.0, (dmb - actual) * (tot / 600) * 20))
 
 
-def total_war(p):
+def mlb_war(p):
+    """WAR on the MLB replacement scale (used for Star Bonus tiers)."""
     if p["role"] == "P":
         return p["war"]
     if "total_war" in p:
         return p["total_war"]
-    return p["off_war"] + fielding(p) + platoon(p)
+    return p["base_war"] + fielding(p) + platoon(p)
+
+
+def mwbl_war(p, w):
+    """WAR above MWBL replacement (used for Production Value and FYV)."""
+    if p["role"] == "P":
+        return w - REPL_P_PER_180IP * p.get("ip", 0) / 180
+    return w - REPL_H_PER_600PA * p.get("pa", 0) / 600
 
 
 def pt_mult(p):
@@ -102,8 +115,9 @@ def fyv(w, age, ptm, year_costs):
 
 def value(p):
     t = p["type"].upper()
-    w, ptm = total_war(p), pt_mult(p)
-    pv = w * PER_WAR * ptm
+    w, ptm = mlb_war(p), pt_mult(p)
+    mw = mwbl_war(p, w)
+    pv = mw * PER_WAR * ptm
     if t == "LT":
         n, amt = int(p["yr"]), float(p["amt"])
         cost, future, floor = amt, [amt] * (n - 1), -amt * n
@@ -115,22 +129,22 @@ def value(p):
         cost = 0.0 if t == "ML0" else 0.2
         future, floor = [], 0.0
     s, c = star(w), cap_eff(pv, cost) if pv > 0 else 0
-    f = fyv(w, p["age"], ptm, future)
+    f = fyv(mw, p["age"], ptm, future)
     raw = pv - cost + s + c + f + p.get("premium", 0)
     surplus = max(raw, floor)
     if t == "OPT":  # option not yet exercised: holder can decline for free
         surplus = max(surplus, 0.0)
-    return dict(name=p["name"], side=p["side"], type=t, war=round(w, 2), age=p["age"],
+    return dict(name=p["name"], side=p["side"], type=t, war=round(w, 2), mwar=round(mw, 2), age=p["age"],
                 pv=pv, cost=cost, star=s, cap=c, fyv=f, prem=p.get("premium", 0),
                 raw=raw, floor=floor, surplus=surplus)
 
 
 def main(path):
     rows = [value(p) for p in json.load(open(path))["players"]]
-    hdr = f"{'Player':22}{'To':6}{'Ctr':5}{'WAR':>6}{'Age':>4}{'PV':>7}{'Cost':>6}{'Star':>6}{'CapE':>6}{'FYV':>6}{'Prem':>6}{'Raw':>7}{'Floor':>7}{'Surplus':>9}"
+    hdr = f"{'Player':22}{'To':6}{'Ctr':5}{'WAR':>6}{'mWAR':>6}{'Age':>4}{'PV':>7}{'Cost':>6}{'Star':>6}{'CapE':>6}{'FYV':>6}{'Prem':>6}{'Raw':>7}{'Floor':>7}{'Surplus':>9}"
     print(hdr)
     for r in rows:
-        print(f"{r['name'][:21]:22}{r['side']:6}{r['type']:5}{r['war']:6.2f}{r['age']:4}"
+        print(f"{r['name'][:21]:22}{r['side']:6}{r['type']:5}{r['war']:6.2f}{r['mwar']:6.2f}{r['age']:4}"
               f"{r['pv']:7.1f}{r['cost']:6.1f}{r['star']:6.1f}{r['cap']:6.1f}{r['fyv']:6.1f}"
               f"{r['prem']:6.1f}{r['raw']:7.1f}{r['floor']:7.1f}{r['surplus']:9.1f}")
     print()
