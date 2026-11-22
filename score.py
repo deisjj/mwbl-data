@@ -28,6 +28,9 @@ import json, sys
 MLB_PER_WAR = 2.0
 PER_WAR = 4.5   # $M per mWAR; league LT contracts pay ~$4.7M (2026 rosters)
 LEGACY_PER_WAR = 2.0
+# Star Bonus multiplier on the MWBL scale. At $4.5M/mWAR, production value already pays
+# stars most of what the full bonus covered at $2M/WAR, so the bonus is cut to ~$2/$4.5.
+STAR_SCALE_MWBL = 0.4
 # MWBL replacement level (24 x 26 = 624th-best MLB player, as a rate). Recompute each
 # offseason with tools/replacement.py (rate at which 312 hitters / 312 pitchers are above it).
 REPL_H_PER_600PA = 1.05
@@ -144,7 +147,8 @@ def value(p, model="mwbl"):
     else:  # ML0-ML3
         cost = 0.0 if t == "ML0" else 0.2
         future, floor = [], 0.0
-    s, c = star(w), cap_eff(pv, cost) if pv > 0 else 0
+    s = star(w) * (STAR_SCALE_MWBL if model == "mwbl" else 1.0)
+    c = cap_eff(pv, cost) if pv > 0 else 0
     f = fyv(mw, p["age"], ptm, future, per_war)
     raw = pv - cost + s + c + f + p.get("premium", 0)
     surplus = max(raw, floor)
@@ -172,7 +176,7 @@ def table(rows, label):
 def main(path, models=("mlb", "mwbl")):
     players = json.load(open(path))["players"]
     labels = {"mlb": f"MLB SCALE (WAR above MLB replacement, ${MLB_PER_WAR}M/WAR)",
-              "mwbl": f"MWBL SCALE (WAR above MWBL replacement, ${PER_WAR}M/mWAR; repl {REPL_H_PER_600PA}/600PA, {REPL_P_PER_180IP}/180IP)",
+              "mwbl": f"MWBL SCALE (WAR above MWBL replacement, ${PER_WAR}M/mWAR; repl {REPL_H_PER_600PA}/600PA, {REPL_P_PER_180IP}/180IP; star x{STAR_SCALE_MWBL})",
               "legacy": f"LEGACY (2025 method, ${LEGACY_PER_WAR}M/WAR)"}
     totals = {m: table([value(p, m) for p in players], labels[m]) for m in models}
     if len(models) > 1:
