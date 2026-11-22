@@ -21,12 +21,13 @@ trade.json: {"players": [ {...}, ... ]}. Per player:
 """
 import json, sys
 
-# Two models run side by side:
-#   legacy: 2025 method. Hitters = off_war (above average) + DMB fielding with Av=+1;
-#           pitchers = FanGraphs WAR (above MLB replacement). $2M per WAR.
-#   mwbl:   everyone above MWBL replacement (mWAR); range centered at Av=0.
-LEGACY_PER_WAR = 2.0
+# Default: two market rates on two WAR scales, side by side.
+#   mlb:    WAR above MLB replacement (FanGraphs WAR, DMB fielding centered at Av=0) at MLB_PER_WAR
+#   mwbl:   WAR above MWBL replacement (mWAR) at PER_WAR
+# Optional: legacy = the 2025 method (offense above average + DMB range Av=+1) at LEGACY_PER_WAR.
+MLB_PER_WAR = 2.0
 PER_WAR = 4.5   # $M per mWAR; league LT contracts pay ~$4.7M (2026 rosters)
+LEGACY_PER_WAR = 2.0
 # MWBL replacement level (24 x 26 = 624th-best MLB player, as a rate). Recompute each
 # offseason with tools/replacement.py (rate at which 312 hitters / 312 pitchers are above it).
 REPL_H_PER_600PA = 1.05
@@ -128,6 +129,8 @@ def value(p, model="mwbl"):
     w, ptm = mlb_war(p, model), pt_mult(p)
     if model == "legacy":
         mw, per_war = w, LEGACY_PER_WAR
+    elif model == "mlb":
+        mw, per_war = w, MLB_PER_WAR
     else:
         mw, per_war = mwbl_war(p, w), PER_WAR
     pv = mw * per_war * ptm
@@ -166,17 +169,18 @@ def table(rows, label):
     return tot
 
 
-def main(path, models=("legacy", "mwbl")):
+def main(path, models=("mlb", "mwbl")):
     players = json.load(open(path))["players"]
-    labels = {"legacy": f"LEGACY (2025 method, ${LEGACY_PER_WAR}M/WAR)",
-              "mwbl": f"MWBL REPLACEMENT (mWAR, ${PER_WAR}M/mWAR; repl {REPL_H_PER_600PA}/600PA, {REPL_P_PER_180IP}/180IP)"}
+    labels = {"mlb": f"MLB SCALE (WAR above MLB replacement, ${MLB_PER_WAR}M/WAR)",
+              "mwbl": f"MWBL SCALE (WAR above MWBL replacement, ${PER_WAR}M/mWAR; repl {REPL_H_PER_600PA}/600PA, {REPL_P_PER_180IP}/180IP)",
+              "legacy": f"LEGACY (2025 method, ${LEGACY_PER_WAR}M/WAR)"}
     totals = {m: table([value(p, m) for p in players], labels[m]) for m in models}
-    if len(models) == 2:
+    if len(models) > 1:
         print("Summary (surplus received):")
         for s in totals[models[0]]:
-            print(f"  {s:6} legacy ${totals['legacy'][s]:6.1f}M   mWAR ${totals['mwbl'][s]:6.1f}M")
+            print("  " + f"{s:6}" + "   ".join(f"{m} ${totals[m][s]:6.1f}M" for m in models))
 
 
 if __name__ == "__main__":
-    # python3 score.py trade.json [legacy|mwbl]   (default: both)
-    main(sys.argv[1], tuple(sys.argv[2:]) or ("legacy", "mwbl"))
+    # python3 score.py trade.json [mlb] [mwbl] [legacy]   (default: mlb mwbl)
+    main(sys.argv[1], tuple(sys.argv[2:]) or ("mlb", "mwbl"))
