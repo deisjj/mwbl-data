@@ -15,7 +15,11 @@ trade.json: {"players": [ {...}, ... ]}. Per player:
   base_war              hitters, mWAR model: war.csv `fg_war_ex_fld` (FanGraphs WAR minus real fielding)
   off_war               hitters, legacy model: war.csv `off_war` (FanGraphs Offense / 9.83)
                         (or pass total_war to skip the defense/platoon math in both models)
-  pos, range, err, arm  hitter DMB defense (pos lowercase, range Pr..Ex)
+  pos, range, err, arm  hitter DMB defense at the position he'll play (pos lowercase, range Pr..Ex)
+  pos_runs              hitters: war.csv `fg_pos_runs` (FanGraphs Positional runs he actually earned).
+                        When given, the positional adjustment is re-based to `pos` (DH included).
+  mlb_track             ML players: true if past prospect status (150+ PA or 50+ IP in MLB);
+                        defaults from pa/ip. These get Future Year Value for remaining control.
   bats, pa_vr, ops_vr, pa_vl, ops_vl     hitter platoon inputs
   premium               prospect premium $M (ML players), default 0
 """
@@ -37,6 +41,9 @@ REPL_H_PER_600PA = 1.05
 REPL_P_PER_180IP = 1.48
 RANGE = {"Pr": -2, "Fr": -1, "Av": 0, "Vg": 1, "Ex": 2}  # centered: Av = average fielder
 LEGACY_RANGE = {"Pr": -1, "Fr": 0, "Av": 1, "Vg": 2, "Ex": 3}
+# FanGraphs positional adjustment, runs per full season (~650 PA); RUNS_PER_WIN from the 2026 Value tab
+POS_RUNS = {"c": 12.5, "ss": 7.5, "2b": 2.5, "3b": 2.5, "cf": 2.5, "lf": -7.5, "rf": -7.5, "1b": -12.5, "dh": -17.5}
+RUNS_PER_WIN = 9.83
 ARM = {"Pr": -1, "Fr": -0.5, "Av": 0, "Vg": 0.5, "Ex": 1}
 ERR_W = {"c": .5, "1b": .4, "2b": .5, "3b": .8, "ss": .8, "lf": .2, "cf": .2, "rf": .2}
 F_DMB = {("L", "R"): .85, ("L", "L"): .40, ("R", "L"): .45, ("R", "R"): .80,
@@ -70,6 +77,15 @@ def platoon(p):
     return max(-1.0, min(3.0, (dmb - actual) * (tot / 600) * 20))
 
 
+def pos_adj(p):
+    """Re-base the positional adjustment in base_war to the position he'll actually play."""
+    pos = p.get("pos", "").lower()
+    if "pos_runs" not in p or pos not in POS_RUNS:
+        return 0.0
+    target = POS_RUNS[pos] * p.get("pa", 0) / 650
+    return (target - p["pos_runs"]) / RUNS_PER_WIN
+
+
 def mlb_war(p, model="mwbl"):
     """Total WAR before any MWBL replacement adjustment (used for Star Bonus tiers)."""
     if p["role"] == "P":
@@ -78,7 +94,7 @@ def mlb_war(p, model="mwbl"):
         return p["total_war"]
     if model == "legacy":
         return p["off_war"] + fielding(p, LEGACY_RANGE) + platoon(p)
-    return p["base_war"] + fielding(p) + platoon(p)
+    return p["base_war"] + pos_adj(p) + fielding(p) + platoon(p)
 
 
 def mwbl_war(p, w):
@@ -117,13 +133,20 @@ def age_delta(a):
     return -1.0
 
 
-def fyv(w, age, ptm, year_costs, per_war):
-    """year_costs: costs for years 2..N."""
+def fyv(w, age, ptm, years, per_war):
+    """years: [(cost, committed)] for years 2..N. Committed years (LT salary) still cost the
+    cap when production falls short, so a bad year counts as max(PV, 0) - cost, undiscounted.
+    Optional years (ML, O1/O2 options) are declined or cut for free, so they floor at 0."""
     total, wk = 0.0, w
-    for i, cost in enumerate(year_costs):
+    for i, (cost, committed) in enumerate(years):
         k = i + 2
         wk += age_delta(age + k - 2)
-        total += max(0.0, (wk * per_war * ptm - cost) * 0.85 ** (k - 1))
+        pv = wk * per_war * ptm
+        net = pv - cost
+        if net >= 0:
+            total += net * 0.85 ** (k - 1)
+        elif committed:
+            total += max(pv, 0.0) - cost
     return total
 
 
@@ -139,14 +162,16 @@ def value(p, model="mwbl"):
     pv = mw * per_war * ptm
     if t == "LT":
         n, amt = int(p["yr"]), float(p["amt"])
-        cost, future, floor = amt, [amt] * (n - 1), -amt * n
+        cost, future, floor = amt, [(amt, True)] * (n - 1), -amt * n
     elif t in ("O1", "OPT"):
-        cost, future, floor = 3.0, [5.0], -8.0
+        cost, future, floor = 3.0, [(5.0, False)], -8.0
     elif t == "O2":
         cost, future, floor = 5.0, [], -5.0
-    else:  # ML0-ML3
-        cost = 0.0 if t == "ML0" else 0.2
-        future, floor = [], 0.0
+    else:  # ML0-ML3: cheap control, then optional O1 ($3M) and O2 ($5M)
+        lvl = int(t[2])
+        cost, floor = (0.0 if lvl == 0 else 0.2), 0.0
+        track = p.get("mlb_track", p.get("pa", 0) >= 150 or p.get("ip", 0) >= 50)
+        future = ([(0.2, False)] * (3 - lvl) + [(3.0, False), (5.0, False)]) if track else []
     s = star(w) * (STAR_SCALE_MWBL if model == "mwbl" else 1.0)
     c = cap_eff(pv, cost) if pv > 0 else 0
     f = fyv(mw, p["age"], ptm, future, per_war)
