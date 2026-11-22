@@ -28,12 +28,13 @@ join key across every file.
 
 ## war.csv
 
-`ID, Name, mlbam, birth, match, PA, off_war, def, bat_war, fg_bat_war, IP, war, bwar_pitch`
+`ID, Name, mlbam, birth, match, PA, off_war, fg_war_ex_fld, fg_bat_war, bwar_off, bwar_def, bwar_bat, IP, war, bwar_pitch`
 
-- **Pitchers: `war` = FanGraphs Pit WAR** (FIP-based, closer to how DMB builds pitcher cards). `bwar_pitch` = Baseball-Reference pitching WAR, reference only
-- **Hitters: `off_war` = bWAR oWAR** (batting + baserunning + positional + replacement); the model adds DMB fielding on top. `def` (bWAR fielding), `bat_war` (full bWAR) and `fg_bat_war` (full fWAR, includes fielding) are reference only
+- **Hitters: `off_war` = FanGraphs Offense runs / 9.83 runs per win** (batting + baserunning, above average; same definition as the 2025 skill data). The model adds DMB fielding on top.
+- `fg_war_ex_fld` = FanGraphs WAR minus real fielding (keeps positional + replacement): the alternative hitter input if the model moves to above-replacement for hitters
+- **Pitchers: `war` = FanGraphs Pit WAR.** `bwar_*` columns are Baseball-Reference, reference only
 - `match`: `chadwick` (FanGraphs→MLBAM via Chadwick register) or `name` (fallback for recent call-ups)
-- Sources: Baseball-Reference `war_daily_bat/pitch` archive (stints summed) + FanGraphs WAR leaderboard (joined on FanGraphs ID). Build: `tools/build_war.py`, then the FanGraphs join
+- Sources: FanGraphs batting Value tab + WAR leaderboard (joined on FanGraphs ID), Baseball-Reference WAR archive (for MLBAM IDs, birth dates, bWAR)
 
 ## Fetching from a skill
 
