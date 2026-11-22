@@ -15,7 +15,13 @@ trade.json: {"players": [ {...}, ... ]}. Per player:
   base_war              hitters, mWAR model: war.csv `fg_war_ex_fld` (FanGraphs WAR minus real fielding)
   off_war               hitters, legacy model: war.csv `off_war` (FanGraphs Offense / 9.83)
                         (or pass total_war to skip the defense/platoon math in both models)
-  pos, range, err, arm  hitter DMB defense at the position he'll play (pos lowercase, range Pr..Ex)
+  pos                   position he'll play (c, 1b, 2b, 3b, ss, lf, cf, rf, dh)
+  ratings               hitters: DMB ratings by position, e.g. {"2b": "Vg/193", "3b": "Vg/157"}.
+                        Fielding comes from the Flood013 DMB defense study (dmb/defense_study.json):
+                        runs saved when a player rated at X plays `pos`, best rated position wins.
+                        Omit to use range/err as an in-position rating at `pos`; {} = unrated.
+  range, err            shorthand for ratings = {pos: "range/err"}
+  arm                   OF arm (LF/CF/RF) or catcher throwing arm; pb = catcher passed-ball rating
   pos_runs              hitters: war.csv `fg_pos_runs` (FanGraphs Positional runs he actually earned).
                         When given, the positional adjustment is re-based to `pos` (DH included).
   mlb_track             ML players: true if past prospect status (150+ PA or 50+ IP in MLB);
@@ -23,7 +29,7 @@ trade.json: {"players": [ {...}, ... ]}. Per player:
   bats, pa_vr, ops_vr, pa_vl, ops_vl     hitter platoon inputs
   premium               prospect premium $M (ML players), default 0
 """
-import json, sys
+import json, os, sys
 
 # Default: two market rates on two WAR scales, side by side.
 #   mlb:    WAR above MLB replacement (FanGraphs WAR, DMB fielding centered at Av=0) at MLB_PER_WAR
@@ -44,6 +50,53 @@ LEGACY_RANGE = {"Pr": -1, "Fr": 0, "Av": 1, "Vg": 2, "Ex": 3}
 # FanGraphs positional adjustment, runs per full season (~650 PA); RUNS_PER_WIN from the 2026 Value tab
 POS_RUNS = {"c": 12.5, "ss": 7.5, "2b": 2.5, "3b": 2.5, "cf": 2.5, "lf": -7.5, "rf": -7.5, "1b": -12.5, "dh": -17.5}
 RUNS_PER_WIN = 9.83
+# Defense study runs are neutral era (~4.8 R/G); scale toward modern scoring (~4.45 R/G).
+DMB_ERA_SCALE = 0.93
+_STUDY_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dmb", "defense_study.json")
+STUDY = json.load(open(_STUDY_PATH)) if os.path.exists(_STUDY_PATH) else None
+_ERRS = [0, 25, 50, 75, 100, 125, 150, 175, 200]
+
+
+def _runs_at(played, rated, rng, err):
+    row = STUDY["played"][played]["by_rated"][rated][rng]
+    ys = [row[str(e)] for e in _ERRS]
+    err = max(0.0, min(float(err), 300.0))
+    if err >= 200:  # extrapolate the last segment
+        return ys[-1] + (ys[-1] - ys[-2]) * (err - 200) / 25
+    i = int(err // 25)
+    return ys[i] + (ys[i + 1] - ys[i]) * (err - _ERRS[i]) / 25
+
+
+def dmb_fielding_runs(p):
+    """Runs saved per full season vs an Av/100 fielder at the played position."""
+    pos = p.get("pos", "").lower()
+    if not pos or pos == "dh" or STUDY is None:
+        return 0.0
+    ratings = p.get("ratings")
+    if ratings is None:
+        ratings = {pos: f"{p['range']}/{p.get('err', 100)}"} if p.get("range") else {}
+    table = STUDY["played"][pos]
+    vals = []
+    for rp, rt in ratings.items():
+        rp = rp.lower()
+        if rp not in table["by_rated"]:
+            continue
+        rng, _, err = str(rt).partition("/")
+        vals.append(_runs_at(pos, rp, rng.capitalize(), err or 100))
+    runs = max(vals) if vals else table["unrated"]
+    arm = p.get("arm")
+    if pos in ("lf", "cf", "rf") and arm:
+        runs += STUDY["arm"]["of"][pos].get(arm.capitalize(), 0)
+    if pos == "c" and "c" in {k.lower() for k in ratings}:
+        if arm:
+            runs += STUDY["arm"]["c"].get(arm.capitalize(), 0)
+        if "pb" in p:
+            runs += STUDY["passed_balls"].get(str(min(int(p["pb"]), 9)), 0)
+    return runs
+
+
+def dmb_fielding_war(p):
+    return dmb_fielding_runs(p) * p.get("pa", 0) / 650 * DMB_ERA_SCALE / RUNS_PER_WIN
 ARM = {"Pr": -1, "Fr": -0.5, "Av": 0, "Vg": 0.5, "Ex": 1}
 ERR_W = {"c": .5, "1b": .4, "2b": .5, "3b": .8, "ss": .8, "lf": .2, "cf": .2, "rf": .2}
 F_DMB = {("L", "R"): .85, ("L", "L"): .40, ("R", "L"): .45, ("R", "R"): .80,
@@ -94,7 +147,8 @@ def mlb_war(p, model="mwbl"):
         return p["total_war"]
     if model == "legacy":
         return p["off_war"] + fielding(p, LEGACY_RANGE) + platoon(p)
-    return p["base_war"] + pos_adj(p) + fielding(p) + platoon(p)
+    fld = dmb_fielding_war(p) if STUDY is not None else fielding(p)
+    return p["base_war"] + pos_adj(p) + fld + platoon(p)
 
 
 def mwbl_war(p, w):

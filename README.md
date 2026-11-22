@@ -13,6 +13,7 @@ so the data lives here and each skill downloads what it needs at the start of a 
   war.csv            FanGraphs WAR export (to add): ID, off_war, war, def
   defense.txt        DMB fielding ratings from the season disk (to add when the disk ships)
 score.py             surplus value calculator (python3 score.py trade.json)
+dmb/                 DMB defense study: defense_study.json (used by score.py) + README.md (all tables, methodology)
 ```
 
 `ID` is the FanGraphs player ID (numeric for MLB players, `sa…` for minor leaguers) and is the
@@ -44,6 +45,7 @@ S=2026; B=https://raw.githubusercontent.com/deisjj/mwbl-data/main
 mkdir -p mwbl && for f in contracts.csv roster-stats.csv war.csv defense.txt; do
   curl -sfL "$B/$S/$f" -o "mwbl/$f" || echo "missing: $f"; done
 curl -sfL "$B/score.py" -o mwbl/score.py
+mkdir -p mwbl/dmb && curl -sfL "$B/dmb/defense_study.json" -o mwbl/dmb/defense_study.json
 ```
 
 ## Season rollover checklist
