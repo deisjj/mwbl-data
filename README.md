@@ -26,6 +26,16 @@ join key across every file.
 - `YR`: LT years remaining; `AMT`: annual $M
 - `Cap Charge (Team)` rows are dead cap from cuts, so skip them for player lookups
 
+## war.csv
+
+`ID, Name, mlbam, birth, match, PA, off_war, def, bat_war, IP, war`
+
+- Source: Baseball-Reference `war_daily_bat/pitch` archive, season rows only, stints summed
+- `off_war` = bWAR oWAR (batting + baserunning + positional + replacement). The model adds DMB fielding on top, so `def` (real-life fielding) is reference only
+- `war` = pitching WAR; `bat_war` = full hitting bWAR
+- `match`: `chadwick` (FanGraphs→MLBAM via Chadwick register) or `name` (fallback for recent call-ups Chadwick lacks)
+- Rebuild: `python3 tools/build_war.py <dir>` with `chad/` (Chadwick CSVs) and `warzip/` (bWAR archive) under `<dir>`
+
 ## Fetching from a skill
 
 ```bash
@@ -38,6 +48,6 @@ curl -sfL "$B/score.py" -o mwbl/score.py
 ## Season rollover checklist
 
 1. Export the league player list after cuts/options → `<season>/contracts.csv` + `roster-stats.csv`
-2. Export FanGraphs batting + pitching leaderboards (all players, min 0 PA/IP) → `war.csv`
+2. Download the Baseball-Reference WAR archive → run `tools/build_war.py` → `war.csv`
 3. Add the DMB disk fielding file → `defense.txt` (December release)
 4. Bump `S=` in each SKILL.md
