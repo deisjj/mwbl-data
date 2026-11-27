@@ -11,7 +11,10 @@ trade.json: {"players": [ {...}, ... ]}. Per player:
   age                   age on April 1 of the sim year
   role                  "H" hitter | "P" pitcher
   pa | ip               playing time
-  war                   pitchers: FanGraphs WAR (war.csv `war`)
+  war                   pitchers: current-year WAR. Default: Baseball-Reference (war.csv `bwar_pitch`),
+                        since DMB cards are built from actual results
+  fyv_war               pitchers, optional: WAR used to project future controlled years (Future
+                        Year Value). Default: FanGraphs (war.csv `war`). Omit to use `war` for both.
   base_war              hitters, mWAR model: war.csv `fg_war_ex_fld` (FanGraphs WAR minus real fielding)
   off_war               hitters, legacy model: war.csv `off_war` (FanGraphs Offense / 9.83)
                         (or pass total_war to skip the defense/platoon math in both models)
@@ -247,7 +250,12 @@ def value(p, model="mwbl"):
         future = ([(0.2, False)] * (3 - lvl) + [(3.0, False), (5.0, False)]) if track else []
     s = star(w) * (STAR_SCALE_MWBL if model == "mwbl" else 1.0)
     c = cap_eff(pv, cost) if pv > 0 else 0
-    f = fyv(mw, p["age"], ptm, future, per_war)
+    if "fyv_war" in p:  # future years on a different WAR source (e.g. fWAR) than year 1 (bWAR)
+        q = dict(p, war=p["fyv_war"]); fw = mlb_war(q, model)
+        fmw = fw if model != "mwbl" else mwbl_war(q, fw)
+        f = fyv(fmw, p["age"], ptm, future, per_war)
+    else:
+        f = fyv(mw, p["age"], ptm, future, per_war)
     raw = pv - cost + s + c + f + p.get("premium", 0)
     surplus = max(raw, floor)
     if t == "OPT":  # option not yet exercised: holder can decline for free

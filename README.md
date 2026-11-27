@@ -34,7 +34,7 @@ join key across every file.
 - **Hitters: `off_war` = FanGraphs Offense runs / 9.83 runs per win** (batting + baserunning, above average; same definition as the 2025 skill data). The model adds DMB fielding on top.
 - `fg_pos_runs` = FanGraphs Positional runs actually earned; pass as `pos_runs` so score.py re-bases the positional adjustment when a player changes position (incl. DH)
 - `fg_war_ex_fld` = FanGraphs WAR minus real fielding (keeps positional + replacement): the alternative hitter input if the model moves to above-replacement for hitters
-- **Pitchers: `war` = FanGraphs Pit WAR.** `bwar_*` columns are Baseball-Reference, reference only
+- **Pitchers: `war` = FanGraphs Pit WAR; `bwar_pitch` = Baseball-Reference.** Trade evals use `bwar_pitch` for the current sim year (DMB cards are built from actual results) and `war` for future controlled years (`fyv_war` in `score.py`). Other `bwar_*` columns are reference only
 - `match`: `chadwick` (FanGraphs→MLBAM via Chadwick register) or `name` (fallback for recent call-ups)
 - Sources: FanGraphs batting Value tab + WAR leaderboard (joined on FanGraphs ID), Baseball-Reference WAR archive (for MLBAM IDs, birth dates, bWAR)
 
