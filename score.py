@@ -210,20 +210,30 @@ def age_delta(a):
 
 
 def fyv(w, age, ptm, years, per_war):
-    """years: [(cost, committed)] for years 2..N. Committed years (LT salary) still cost the
-    cap when production falls short, so a bad year counts as max(PV, 0) - cost, undiscounted.
-    Optional years (ML, O1/O2 options) are declined or cut for free, so they floor at 0."""
-    total, wk = 0.0, w
-    for i, (cost, committed) in enumerate(years):
+    """years: [(cost, kind)] for years 2..N. kind:
+      True   committed (LT salary, or O2 after O1 is exercised): a bad year still costs the
+             cap, so it counts as max(PV, 0) - cost, undiscounted.
+      False  optional (ML years): declined or cut for free, so it floors at 0.
+      "pkg"  optional package (an ML player's O1 + O2): exercising O1 locks in O2 (cutting an
+             O1 costs $8M dead cap), so the years are scored as committed and the package as a
+             whole floors at 0 (the holder can decline the O1 option)."""
+    total, pkg, wk = 0.0, 0.0, w
+    for i, (cost, kind) in enumerate(years):
         k = i + 2
         wk += age_delta(age + k - 2)
         pv = wk * per_war * ptm
         net = pv - cost
         if net >= 0:
-            total += net * 0.85 ** (k - 1)
-        elif committed:
-            total += max(pv, 0.0) - cost
-    return total
+            v = net * 0.85 ** (k - 1)
+        elif kind:  # committed or package year: dead money
+            v = max(pv, 0.0) - cost
+        else:
+            v = 0.0
+        if kind == "pkg":
+            pkg += v
+        else:
+            total += v
+    return total + max(pkg, 0.0)
 
 
 def value(p, model="mwbl"):
@@ -240,14 +250,14 @@ def value(p, model="mwbl"):
         n, amt = int(p["yr"]), float(p["amt"])
         cost, future, floor = amt, [(amt, True)] * (n - 1), -amt * n
     elif t in ("O1", "OPT"):
-        cost, future, floor = 3.0, [(5.0, False)], -8.0
+        cost, future, floor = 3.0, [(5.0, True)], -8.0  # O2 locked in once O1 is exercised
     elif t == "O2":
         cost, future, floor = 5.0, [], -5.0
-    else:  # ML0-ML3: cheap control, then optional O1 ($3M) and O2 ($5M)
+    else:  # ML0-ML3: cheap control, then an optional O1 ($3M) + O2 ($5M) package
         lvl = int(t[2])
         cost, floor = (0.0 if lvl == 0 else 0.2), 0.0
         track = p.get("mlb_track", p.get("pa", 0) >= 150 or p.get("ip", 0) >= 50)
-        future = ([(0.2, False)] * (3 - lvl) + [(3.0, False), (5.0, False)]) if track else []
+        future = ([(0.2, False)] * (3 - lvl) + [(3.0, "pkg"), (5.0, "pkg")]) if track else []
     s = star(w) * (STAR_SCALE_MWBL if model == "mwbl" else 1.0)
     c = cap_eff(pv, cost) if pv > 0 else 0
     if "fyv_war" in p:  # future years on a different WAR source (e.g. fWAR) than year 1 (bWAR)
